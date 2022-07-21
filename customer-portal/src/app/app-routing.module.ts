@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { NetassetComponent } from './components/netasset/netasset.component';
 import { AuthGuard } from './services/auth.guard';
+import { SellassetComponent } from './components/sellasset/sellasset.component';
 
 const routes: Routes = [
 
@@ -29,7 +30,13 @@ const routes: Routes = [
     component:NetassetComponent,
     pathMatch:'full',
     canActivate:[AuthGuard]
-  }
+  },
+  {
+    path:'sellasset',
+    component:SellassetComponent,
+    pathMatch:'full',
+    canActivate:[AuthGuard]
+  },
 
 
 ];

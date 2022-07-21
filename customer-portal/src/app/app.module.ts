@@ -18,6 +18,10 @@ import { LoginService } from './services/login.service';
 import { AuthGuard } from './services/auth.guard';
 import { AuthInterceptor } from './services/auth.interceptor';
 import { NetassetComponent } from './components/netasset/netasset.component';
+import { SellassetComponent } from './components/sellasset/sellasset.component';
+
+import { VieweachstockComponent } from './components/vieweachstock/vieweachstock.component';
+import { VieweachmutualComponent } from './components/vieweachmutual/vieweachmutual.component';
 
 
 
@@ -31,7 +35,10 @@ import { NetassetComponent } from './components/netasset/netasset.component';
      HomeComponent,
      LoginComponent,
      NavBarComponent,
-     NetassetComponent
+     NetassetComponent,
+     SellassetComponent,
+     VieweachstockComponent,
+     VieweachmutualComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +49,8 @@ import { NetassetComponent } from './components/netasset/netasset.component';
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [LoginService,AuthGuard, [{provide:HTTP_INTERCEPTORS,useClass:AuthInterceptor,multi:true}]],
   bootstrap: [AppComponent]

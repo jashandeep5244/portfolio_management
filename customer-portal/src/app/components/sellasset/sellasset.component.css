@@ -1,0 +1,12 @@
+.container {
+    margin-top: 10px;
+}
+
+th {
+    border: 1px solid;
+    width: 150px;
+}
+
+.dash {
+    margin-top: 2rem;
+}
