@@ -37,6 +37,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.csrf().disable()
+		.cors().and()
 		.authorizeRequests().antMatchers("/getToken","/h2-console").permitAll()
 		.anyRequest().authenticated().
 		and().exceptionHandling().and().sessionManagement()
