@@ -4,7 +4,7 @@ import { AssetSaleResponse } from '../model/assetSaleResponse';
 import { Portfolio } from '../model/portfolio';
 import { SaleAsset } from '../model/saleasset';
 import { StockDetail } from '../model/stockdetail';
-import { CN_URL } from './../app.constants';
+import { CN_URL } from './../../app.constants';
 import { LoginService } from './login.service';
 @Injectable({
   providedIn: 'root'

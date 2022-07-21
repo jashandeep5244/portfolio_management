@@ -1,0 +1,42 @@
+<div class="bootstrap-wrapper">
+    <div class="container text-center mt">
+        <div class="container text-center mt">
+                <h3 class="text-center h">Daily Stock Price</h3>
+                <table class=" text-center mt table table-striped">
+                    <thead class="text-center">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr *ngFor="let stock of allStock">
+                            <td>{{stock.stockName}}</td>
+                            <td>{{stock.stockValue}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <div class="container text-center mt">
+            <h3 class="text-center h">Daily Mutual Fund Price</h3>
+            <table class=" text-center mt table table-striped">
+                    <thead class="text-center">
+                        <tr>
+
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr *ngFor="let mf of allMutualFund">
+                            <td>{{mf.mutualFundName}}</td>
+                            <td>{{mf.mutualFundValue}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="text-center">
+                <p>  <button  mat-raised-button routerLink="/dashboard">Dashboard</button></p>
+            </div>
+        </div>
+    </div>
+</div>

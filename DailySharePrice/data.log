@@ -1,529 +1,58 @@
-"2022-07-20 09:27:54 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:27:54 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:27:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-""2022-07-20 09:27:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-""2022-07-20 09:27:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:27:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:27:55 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:27:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:27:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:27:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:27:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:27:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2058 ms
-""2022-07-20 09:27:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-""2022-07-20 09:27:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-""2022-07-20 09:27:56 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:27:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:27:57 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
-""2022-07-20 09:27:57 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2022-07-20 09:27:57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:27:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:27:58 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:27:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:27:58 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:27:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:27:59 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 5.884 seconds (JVM running for 6.814)
-""2022-07-20 09:29:08 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:29:08 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:29:08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-""2022-07-20 09:29:08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2022-07-20 09:29:08 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:29:08 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:29:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:29:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:29:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 327 ms
-""2022-07-20 09:29:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
-""2022-07-20 09:29:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:29:09 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:29:09 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:29:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:29:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:29:09 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:29:09 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 1.07 seconds (JVM running for 76.918)
-""2022-07-20 09:29:09 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:29:19 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:29:19 [Thread-8] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:29:19 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
-""2022-07-20 09:29:19 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
-""2022-07-20 09:29:19 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:29:19 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:29:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:29:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:29:19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:29:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:29:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:29:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:29:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:29:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 291 ms
-""2022-07-20 09:29:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
-""2022-07-20 09:29:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
-""2022-07-20 09:29:19 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:29:19 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:29:19 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:29:19 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:29:19 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:29:19 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:29:19 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:29:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:29:20 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.962 seconds (JVM running for 87.398)
-""2022-07-20 09:29:20 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:29:48 [Thread-14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:29:48 [Thread-14] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:29:48 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
-""2022-07-20 09:29:48 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
-""2022-07-20 09:29:49 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:29:49 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:29:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:29:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:29:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 297 ms
-""2022-07-20 09:29:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
-""2022-07-20 09:29:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:29:49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:29:49 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:29:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:29:49 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:29:49 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:29:49 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.95 seconds (JVM running for 117.106)
-""2022-07-20 09:29:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:30:08 [Thread-20] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:30:08 [Thread-20] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:30:08 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
-""2022-07-20 09:30:08 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
-""2022-07-20 09:30:08 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:30:08 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:30:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:30:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:30:08 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:30:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:30:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:30:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:30:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:30:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 280 ms
-""2022-07-20 09:30:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
-""2022-07-20 09:30:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
-""2022-07-20 09:30:09 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:30:09 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:30:09 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:30:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:30:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:30:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:30:09 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:30:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:30:09 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.894 seconds (JVM running for 136.691)
-""2022-07-20 09:30:09 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:30:13 [Thread-26] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:30:13 [Thread-26] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:30:13 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
-""2022-07-20 09:30:13 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
-""2022-07-20 09:30:14 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:30:14 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:30:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:30:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:30:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 296 ms
-""2022-07-20 09:30:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
-""2022-07-20 09:30:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:30:14 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:30:14 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:30:14 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:30:14 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:30:14 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:30:14 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.942 seconds (JVM running for 142.075)
-""2022-07-20 09:30:14 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:30:55 [Thread-32] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:30:55 [Thread-32] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:30:55 [Thread-32] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
-""2022-07-20 09:30:55 [Thread-32] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
-""2022-07-20 09:30:56 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:30:56 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:30:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:30:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:30:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 264 ms
-""2022-07-20 09:30:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
-""2022-07-20 09:30:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:30:56 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:30:56 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:30:56 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:30:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:30:56 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:30:56 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.846 seconds (JVM running for 183.933)
-""2022-07-20 09:30:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:31:44 [Thread-38] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:31:44 [Thread-38] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:31:44 [Thread-38] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
-""2022-07-20 09:31:44 [Thread-38] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
-""2022-07-20 09:31:45 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:31:45 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:31:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:31:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:31:45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 258 ms
-""2022-07-20 09:31:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
-""2022-07-20 09:31:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:31:45 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:31:45 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:31:45 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:31:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:31:45 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:31:45 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.975 seconds (JVM running for 233.019)
-""2022-07-20 09:31:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:31:46 [Thread-44] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:31:47 [Thread-44] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:31:47 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
-""2022-07-20 09:31:47 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
-""2022-07-20 09:31:47 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:31:47 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:31:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:31:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:31:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 261 ms
-""2022-07-20 09:31:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
-""2022-07-20 09:31:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:31:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:31:47 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:31:47 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:31:47 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:31:47 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:31:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:31:48 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.861 seconds (JVM running for 235.26)
-""2022-07-20 09:31:48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:32:12 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 09:32:12 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 09:32:12 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-""2022-07-20 09:39:25 [Thread-50] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:39:26 [Thread-50] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:39:26 [Thread-50] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
-""2022-07-20 09:39:26 [Thread-50] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
-""2022-07-20 09:39:27 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:39:27 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:39:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:39:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:39:27 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:39:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:39:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:39:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:39:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:39:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
-""2022-07-20 09:39:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
-""2022-07-20 09:39:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
-""2022-07-20 09:39:28 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:39:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:39:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:39:28 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:39:28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:39:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:39:28 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:39:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:39:28 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 1.823 seconds (JVM running for 695.887)
-""2022-07-20 09:39:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:39:30 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 09:39:30 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 09:39:30 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-""2022-07-20 09:39:30 [http-nio-8082-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'dailySharePrice' for method parameter type String is not present]
-""2022-07-20 09:39:56 [Thread-56] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:39:57 [Thread-56] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:39:57 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
-""2022-07-20 09:39:57 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
-""2022-07-20 09:39:57 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:39:57 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:39:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:39:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:39:57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:39:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:39:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:39:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:39:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:39:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 289 ms
-""2022-07-20 09:39:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
-""2022-07-20 09:39:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
-""2022-07-20 09:39:57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:39:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:39:57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:39:57 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:39:57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:39:57 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:39:57 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:39:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:39:58 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 09:39:58 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 09:39:58 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-""2022-07-20 09:39:58 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.957 seconds (JVM running for 725.368)
-""2022-07-20 09:39:58 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:40:26 [Thread-62] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:26 [Thread-62] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:40:26 [Thread-62] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
-""2022-07-20 09:40:26 [Thread-62] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
-""2022-07-20 09:40:26 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:40:26 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:40:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:40:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:40:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 257 ms
-""2022-07-20 09:40:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
-""2022-07-20 09:40:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:40:27 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:40:27 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:40:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:40:27 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:40:27 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.844 seconds (JVM running for 754.876)
-""2022-07-20 09:40:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:40:29 [Thread-68] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:30 [Thread-68] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:40:30 [Thread-68] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
-""2022-07-20 09:40:30 [Thread-68] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
-""2022-07-20 09:40:30 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:40:30 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:40:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:40:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:40:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 330 ms
-""2022-07-20 09:40:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
-""2022-07-20 09:40:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:40:30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:40:30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:40:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:40:30 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:40:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:40:31 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.909 seconds (JVM running for 758.243)
-""2022-07-20 09:40:31 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:40:44 [Thread-74] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:44 [Thread-74] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:40:44 [Thread-74] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
-""2022-07-20 09:40:44 [Thread-74] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
-""2022-07-20 09:40:44 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:40:44 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:40:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:40:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:40:44 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:40:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:40:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:40:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:40:45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:40:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 257 ms
-""2022-07-20 09:40:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
-""2022-07-20 09:40:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
-""2022-07-20 09:40:45 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:40:45 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:40:45 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:40:45 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:40:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:40:45 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:40:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:40:45 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.828 seconds (JVM running for 772.64)
-""2022-07-20 09:40:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:40:58 [Thread-80] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:58 [Thread-80] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:40:58 [Thread-80] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
-""2022-07-20 09:40:58 [Thread-80] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
-""2022-07-20 09:40:59 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:40:59 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:40:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:40:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:40:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 270 ms
-""2022-07-20 09:40:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
-""2022-07-20 09:40:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:40:59 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:40:59 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:40:59 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:40:59 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:40:59 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:40:59 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 0.867 seconds (JVM running for 787.027)
-""2022-07-20 09:40:59 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:41:08 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 09:41:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 09:41:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-""2022-07-20 09:41:34 [Thread-86] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:41:34 [Thread-86] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:41:34 [Thread-86] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown initiated...
-""2022-07-20 09:41:34 [Thread-86] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown completed.
-""2022-07-20 09:41:34 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:41:34 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:41:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:41:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:41:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 302 ms
-""2022-07-20 09:41:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Starting...
-""2022-07-20 09:41:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Start completed.
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:41:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:41:35 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:41:35 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:41:35 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:41:35 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:41:35 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 1.001 seconds (JVM running for 822.826)
-""2022-07-20 09:41:35 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 09:41:35 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 09:41:35 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 09:41:35 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-""2022-07-20 09:59:45 [Thread-92] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:59:45 [Thread-92] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 09:59:45 [Thread-92] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown initiated...
-""2022-07-20 09:59:45 [Thread-92] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown completed.
-""2022-07-20 09:59:47 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 09:59:47 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 09:59:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 09:59:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
-""2022-07-20 09:59:48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 09:59:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 09:59:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 09:59:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 09:59:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 09:59:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 733 ms
-""2022-07-20 09:59:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
-""2022-07-20 09:59:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
-""2022-07-20 09:59:48 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 09:59:48 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 09:59:48 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 09:59:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 09:59:48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 09:59:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 09:59:48 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 09:59:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 09:59:49 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 1.506 seconds (JVM running for 1916.325)
-""2022-07-20 09:59:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 10:04:11 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 10:04:11 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 10:04:11 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-""2022-07-20 10:04:47 [Thread-98] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 10:04:47 [Thread-98] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 10:04:47 [Thread-98] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown initiated...
-""2022-07-20 10:04:47 [Thread-98] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown completed.
-""2022-07-20 10:04:48 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 2196 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 10:04:48 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 10:04:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 10:04:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
-""2022-07-20 10:04:48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 10:04:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 10:04:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 10:04:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 10:04:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 10:04:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 429 ms
-""2022-07-20 10:04:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Starting...
-""2022-07-20 10:04:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Start completed.
-""2022-07-20 10:04:48 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 10:04:48 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 10:04:48 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 10:04:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 10:04:48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 10:04:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 10:04:48 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-""2022-07-20 10:04:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 10:04:49 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 10:04:49 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 10:04:49 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-""2022-07-20 10:04:49 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 1.215 seconds (JVM running for 2216.445)
-""2022-07-20 10:04:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2022-07-20 10:05:18 [http-nio-8082-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'Authorization' for method parameter type String is not present]
-""2022-07-20 11:22:17 [RMI TCP Connection(155)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-""2022-07-20 11:22:18 [RMI TCP Connection(155)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 11:22:19 [RMI TCP Connection(155)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 11:22:19 [RMI TCP Connection(155)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown initiated...
-""2022-07-20 11:22:19 [RMI TCP Connection(155)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown completed.
-""2022-07-20 12:01:01 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 12756 (E:\Portfolio project\Portfolio project\DailySharePrice\target\classes started by hp in E:\Portfolio project\Portfolio project\DailySharePrice)
-""2022-07-20 12:01:01 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-20 12:01:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-""2022-07-20 12:01:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-""2022-07-20 12:01:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-20 12:01:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
-""2022-07-20 12:01:03 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
-""2022-07-20 12:01:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-""2022-07-20 12:01:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-20 12:01:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-""2022-07-20 12:01:03 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-20 12:01:03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2328 ms
-""2022-07-20 12:01:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-""2022-07-20 12:01:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-""2022-07-20 12:01:04 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-20 12:01:04 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-20 12:01:04 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
-""2022-07-20 12:01:04 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2022-07-20 12:01:05 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-20 12:01:05 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-20 12:01:05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 12:01:06 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-20 12:01:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-""2022-07-20 12:01:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-""2022-07-20 12:01:08 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 7.549 seconds (JVM running for 8.862)
-""2022-07-20 12:01:49 [http-nio-8082-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-20 12:01:49 [http-nio-8082-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-20 12:01:49 [http-nio-8082-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-""2022-07-20 13:12:38 [RMI TCP Connection(81)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-""2022-07-20 13:12:38 [RMI TCP Connection(81)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-20 13:12:38 [RMI TCP Connection(81)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-""2022-07-20 13:12:38 [RMI TCP Connection(81)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-""2022-07-20 13:12:39 [RMI TCP Connection(81)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"2022-07-21 19:00:25 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 7024 (E:\portfolio_management\DailySharePrice\target\classes started by hp in E:\portfolio_management\DailySharePrice)
+""2022-07-21 19:00:25 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-21 19:00:25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-21 19:00:25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-21 19:00:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-21 19:00:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+""2022-07-21 19:00:27 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
+""2022-07-21 19:00:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-07-21 19:00:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-21 19:00:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-21 19:00:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-21 19:00:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4125 ms
+""2022-07-21 19:00:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-21 19:00:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-21 19:00:29 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-21 19:00:30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-21 19:00:30 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-21 19:00:30 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-21 19:00:30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-21 19:00:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-21 19:00:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-21 19:00:32 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-21 19:00:32 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-21 19:00:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-07-21 19:00:35 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 11.246 seconds (JVM running for 12.836)
+""2022-07-21 19:04:10 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-21 19:04:10 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-21 19:04:10 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 305 ms
+""2022-07-21 19:04:24 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-21 19:04:24 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-21 19:04:24 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-21 19:04:24 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-21 19:04:25 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 7024 (E:\portfolio_management\DailySharePrice\target\classes started by hp in E:\portfolio_management\DailySharePrice)
+""2022-07-21 19:04:25 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-21 19:04:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-21 19:04:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+""2022-07-21 19:04:27 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5368b23b-cd5b-3b1c-af56-6d8eced3ceef
+""2022-07-21 19:04:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-07-21 19:04:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-21 19:04:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-21 19:04:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-21 19:04:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2107 ms
+""2022-07-21 19:04:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-21 19:04:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-21 19:04:27 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-21 19:04:27 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-21 19:04:27 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-21 19:04:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-21 19:04:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-21 19:04:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-21 19:04:27 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-21 19:04:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-07-21 19:04:28 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 3.479 seconds (JVM running for 246.184)
+""2022-07-21 19:04:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-21 19:21:51 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-21 19:21:51 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-21 19:21:51 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 108 ms
 "

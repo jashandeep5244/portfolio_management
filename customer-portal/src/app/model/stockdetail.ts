@@ -3,6 +3,7 @@ export class StockDetail{
     constructor(
         public stId:number,
         public stockName:string,
-        public stockCount:number
+        public stockCount:number,
+        public currentPrice:number
         ){}
 }

@@ -1,55 +1,37 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
-import { ErrorComponent } from './components/error/error.component';
-import { SellassetComponent } from './components/sellasset/sellasset.component';
+import { NetassetComponent } from './components/netasset/netasset.component';
 import { AuthGuard } from './services/auth.guard';
-import { ViewassetComponent } from './components/viewasset/viewasset.component';
 
 const routes: Routes = [
+
   {
     path:'',
     component:HomeComponent,
     pathMatch:'full'
   },
   {
-    path:"login",
+    path:'login',
     component:LoginComponent,
-    pathMatch:"full"
+    pathMatch:'full'
   },
   {
-    path:"dashboard",
+    path:'dashboard',
     component:DashboardComponent,
-    pathMatch:"full",
+    pathMatch:'full',
     canActivate:[AuthGuard]
   },
   {
-    path:"contact",
-    component:ContactUsComponent,
-    pathMatch:"full",
-  
-  },
-  {
-    path:"viewasset",
-    component:ViewassetComponent,
-    pathMatch:"full",
+    path:'net',
+    component:NetassetComponent,
+    pathMatch:'full',
     canActivate:[AuthGuard]
-  
-  },
-  {
-    path:"sellasset",
-    component:SellassetComponent,
-    pathMatch:"full",
-    canActivate:[AuthGuard]
-  
-  },
-  { 
-    path: '**', 
-    component: ErrorComponent 
   }
+
+
 ];
 
 @NgModule({
