@@ -26,8 +26,6 @@ import { VieweachmutualComponent } from './components/vieweachmutual/vieweachmut
 import {MatTableModule} from '@angular/material/table';
 
 
-
-
 @NgModule({
   declarations: [
 
@@ -39,7 +37,7 @@ import {MatTableModule} from '@angular/material/table';
      NetassetComponent,
      SellassetComponent,
      VieweachstockComponent,
-     VieweachmutualComponent
+     VieweachmutualComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,7 +49,7 @@ import {MatTableModule} from '@angular/material/table';
     MatInputModule,
     FormsModule,
     HttpClientModule,
-    MatTableModule
+    MatTableModule,
   ],
   providers: [LoginService,AuthGuard, [{provide:HTTP_INTERCEPTORS,useClass:AuthInterceptor,multi:true}]],
   bootstrap: [AppComponent]
