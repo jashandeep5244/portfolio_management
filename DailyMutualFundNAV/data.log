@@ -60,4 +60,29 @@
 ""2022-07-21 21:17:18 [RMI TCP Connection(152)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
 ""2022-07-21 21:17:18 [RMI TCP Connection(152)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
 ""2022-07-21 21:17:18 [RMI TCP Connection(152)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-22 12:45:22 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on Rim with PID 18172 (D:\portfolio_management\DailyMutualFundNAV\target\classes started by Madhurima in D:\portfolio_management\DailyMutualFundNAV)
+""2022-07-22 12:45:22 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-22 12:45:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-22 12:45:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-22 12:45:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-22 12:45:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+""2022-07-22 12:45:23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-22 12:45:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-22 12:45:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-22 12:45:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-22 12:45:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-22 12:45:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1502 ms
+""2022-07-22 12:45:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-22 12:45:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-22 12:45:24 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-22 12:45:24 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-22 12:45:24 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-22 12:45:24 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-22 12:45:24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-22 12:45:24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-22 12:45:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-22 12:45:25 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-22 12:45:25 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-22 12:45:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-22 12:45:26 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 4.127 seconds (JVM running for 4.916)
 "

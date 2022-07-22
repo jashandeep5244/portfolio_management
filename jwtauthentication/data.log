@@ -91,4 +91,26 @@
 ""2022-07-21 21:17:22 [RMI TCP Connection(147)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 ""2022-07-21 21:17:22 [RMI TCP Connection(147)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2022-07-21 21:17:22 [RMI TCP Connection(147)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-22 12:47:32 [main] INFO  com.jwt.JwtauthenticationApplication - Starting JwtauthenticationApplication using Java 17.0.3 on Rim with PID 11744 (D:\portfolio_management\jwtauthentication\target\classes started by Madhurima in D:\portfolio_management\jwtauthentication)
+""2022-07-22 12:47:32 [main] INFO  com.jwt.JwtauthenticationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-22 12:47:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-22 12:47:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+""2022-07-22 12:47:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-22 12:47:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-22 12:47:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+""2022-07-22 12:47:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-22 12:47:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
+""2022-07-22 12:47:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-22 12:47:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-22 12:47:33 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-22 12:47:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-22 12:47:34 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-22 12:47:34 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-22 12:47:34 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-22 12:47:34 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-22 12:47:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-22 12:47:35 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-22 12:47:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d15c513, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@320efff5, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ba8ef4e, org.springframework.security.web.header.HeaderWriterFilter@6b32b678, org.springframework.web.filter.CorsFilter@78b44fcb, org.springframework.security.web.authentication.logout.LogoutFilter@3a7dcfb7, com.jwt.filter.JwtAthenticationFilter@30ed2a26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a1a72d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d72f06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12dc702b, org.springframework.security.web.session.SessionManagementFilter@65a66a75, org.springframework.security.web.access.ExceptionTranslationFilter@161c9468, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@488b46da]
+""2022-07-22 12:47:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-22 12:47:35 [main] INFO  com.jwt.JwtauthenticationApplication - Started JwtauthenticationApplication in 3.58 seconds (JVM running for 4.256)
 "
