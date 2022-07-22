@@ -23,6 +23,7 @@ import { SellassetComponent } from './components/sellasset/sellasset.component';
 import { VieweachstockComponent } from './components/vieweachstock/vieweachstock.component';
 import { VieweachmutualComponent } from './components/vieweachmutual/vieweachmutual.component';
 
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -50,7 +51,7 @@ import { VieweachmutualComponent } from './components/vieweachmutual/vieweachmut
     MatInputModule,
     FormsModule,
     HttpClientModule,
-    
+    MatTableModule
   ],
   providers: [LoginService,AuthGuard, [{provide:HTTP_INTERCEPTORS,useClass:AuthInterceptor,multi:true}]],
   bootstrap: [AppComponent]
