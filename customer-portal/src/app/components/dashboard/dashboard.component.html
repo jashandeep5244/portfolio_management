@@ -8,20 +8,20 @@
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Name</th>
+                            <th>Name of mutual fund</th>
                             <th>Quantity</th>
                         </tr>
                      </thead>
-            
+
                      <tbody>
                         <tr *ngFor="let mutalfund of mutalfunds" >
                             <td>{{mutalfund.mfId}}</td>
                             <td>{{mutalfund.mutualFundName}}</td>
                             <td>{{mutalfund.mutualFundUnits}}</td>
-        
+
                          </tr>
                     </tbody>
-        
+
             </table>
 
 
@@ -37,29 +37,29 @@
                             <th>Quantity</th>
                         </tr>
                      </thead>
-            
+
                      <tbody>
                         <tr *ngFor="let stock of stocks" >
                             <td>{{stock.stId}}</td>
                             <td>{{stock.stockName}}</td>
                             <td>{{stock.stockCount}}</td>
-        
+
                          </tr>
                     </tbody>
-        
+
             </table>
 
 
         </div>
-    
-        
 
-    </div> 
-    <div class="text-center">
-       <p><button  mat-raised-button routerLink="/net">Get Daily Prices</button></p> 
+
+
     </div>
     <div class="text-center">
-       <p><button  mat-raised-button routerLink="/sellasset">Sell Asset</button></p> 
+       <p><button  mat-raised-button routerLink="/net">Get Daily Prices</button></p>
+    </div>
+    <div class="text-center">
+       <p><button  mat-raised-button routerLink="/sellasset">Sell Asset</button></p>
     </div>
     <h4>Your Net Worth : {{netWorth}}</h4>
 </div>
