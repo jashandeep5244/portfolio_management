@@ -1,6 +1,7 @@
 <div class="bootstrap-wrapper">
     <div class="container text-center mt">
         <h1>Welcome to Dashboard</h1>
+
         <div class="container text-center mt">
             <h3>Mutual Fund List</h3>
 
@@ -24,7 +25,8 @@
 
             </table>
         </div>
-        <br><br>
+        <br>
+
         <div class="container text-center mt">
             <h3>Stocks List</h3>
 
@@ -45,20 +47,17 @@
 
                          </tr>
                     </tbody>
-
             </table>
-
-
         </div>
-
-
-
-    </div>
-    <div class="text-center">
-       <p><button  mat-raised-button routerLink="/net">Get Daily Prices</button></p>
-    </div>
-    <div class="text-center">
-       <p><button  mat-raised-button routerLink="/sellasset">Sell Asset</button></p>
+        <br>
     </div>
     <h4>Your Net Worth : {{netWorth}}</h4>
+    <br>
+    <div class="text-center">
+       <button  mat-raised-button routerLink="/net" color="primary">Get Daily Prices</button>
+       <button  mat-raised-button routerLink="/sellasset" color="primary">Sell Asset</button>
+    </div>
+    <br>
+    <br>
+
 </div>
