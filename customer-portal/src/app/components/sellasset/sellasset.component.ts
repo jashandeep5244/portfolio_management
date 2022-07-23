@@ -5,6 +5,8 @@ import { SaleAsset } from 'src/app/model/saleasset';
 import { CalculatenetworthserviceService } from 'src/app/services/calculatenetworthservice.service';
 import { LoginService } from 'src/app/services/login.service';
 
+import { timer } from 'rxjs';
+
 @Component({
   selector: 'app-sellasset',
   templateUrl: './sellasset.component.html',
@@ -40,7 +42,10 @@ export class SellassetComponent implements OnInit {
       {
         console.log(data);
         this.assetSaleResponse=data;
-
+        alert('Assests are sold successfully')
+        timer(2000).subscribe(x =>{
+        }
+        );
       },
       (error:any)=>
       {
