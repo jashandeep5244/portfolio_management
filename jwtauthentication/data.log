@@ -1,94 +1,134 @@
-"2022-07-21 19:00:42 [main] INFO  com.jwt.JwtauthenticationApplication - Starting JwtauthenticationApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 20012 (E:\portfolio_management\jwtauthentication\target\classes started by hp in E:\portfolio_management\jwtauthentication)
-""2022-07-21 19:00:42 [main] INFO  com.jwt.JwtauthenticationApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-21 19:00:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-21 19:00:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
-""2022-07-21 19:00:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
-""2022-07-21 19:00:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-21 19:00:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
-""2022-07-21 19:00:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-21 19:00:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1968 ms
-""2022-07-21 19:00:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-""2022-07-21 19:00:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-""2022-07-21 19:00:45 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-21 19:00:45 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-21 19:00:45 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
-""2022-07-21 19:00:45 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2022-07-21 19:00:46 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-21 19:00:46 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-21 19:00:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-21 19:00:47 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-21 19:00:47 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17fa14a3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5552d10, org.springframework.security.web.context.SecurityContextPersistenceFilter@632b96b8, org.springframework.security.web.header.HeaderWriterFilter@5020e5ab, org.springframework.web.filter.CorsFilter@3b3190fd, org.springframework.security.web.authentication.logout.LogoutFilter@50b624da, com.jwt.filter.JwtAthenticationFilter@41abee65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b430541, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d0bcf8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@219dd935, org.springframework.security.web.session.SessionManagementFilter@1adf387e, org.springframework.security.web.access.ExceptionTranslationFilter@47994b51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b7b0ada]
-""2022-07-21 19:00:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
-""2022-07-21 19:00:47 [main] INFO  com.jwt.JwtauthenticationApplication - Started JwtauthenticationApplication in 5.958 seconds (JVM running for 6.891)
-""2022-07-21 19:03:21 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-21 19:03:21 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-21 19:03:21 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 86 ms
-""2022-07-21 19:07:05 [http-nio-8081-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
-"io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-07-20T19:54:34Z. Current time: 2022-07-21T19:07:05Z, a difference of 83551040 milliseconds.  Allowed clock skew: 0 milliseconds.
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
-	at com.jwt.util.JwtUtil.extractAllClaims(JwtUtil.java:33)
-	at com.jwt.util.JwtUtil.extractClaim(JwtUtil.java:29)
-	at com.jwt.util.JwtUtil.extractUsername(JwtUtil.java:21)
-	at com.jwt.filter.JwtAthenticationFilter.doFilterInternal(JwtAthenticationFilter.java:42)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
-	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-"2022-07-21 21:17:21 [RMI TCP Connection(147)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-""2022-07-21 21:17:22 [RMI TCP Connection(147)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-21 21:17:22 [RMI TCP Connection(147)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-""2022-07-21 21:17:22 [RMI TCP Connection(147)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"2022-07-23 09:28:44 [main] INFO  com.jwt.services.UserServicesTest - Starting UserServicesTest using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 5796 (started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-23 09:28:44 [main] INFO  com.jwt.services.UserServicesTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 09:28:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 09:28:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 220 ms. Found 1 JPA repository interfaces.
+""2022-07-23 09:28:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 09:28:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 09:28:52 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 09:28:52 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-23 09:28:52 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 09:28:53 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 09:28:54 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 09:28:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:28:54 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 09:28:55 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 09:28:57 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@326dbe25, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@647aa45c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5aeebccc, org.springframework.security.web.header.HeaderWriterFilter@618fb1, org.springframework.web.filter.CorsFilter@3922b297, org.springframework.security.web.authentication.logout.LogoutFilter@37f71e8, com.jwt.filter.JwtAthenticationFilter@79b4cff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c8a9266, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@580154b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d02a066, org.springframework.security.web.session.SessionManagementFilter@2a60981c, org.springframework.security.web.access.ExceptionTranslationFilter@6c4d0224, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@84becbe]
+""2022-07-23 09:28:58 [main] INFO  com.jwt.services.UserServicesTest - Started UserServicesTest in 19.054 seconds (JVM running for 23.342)
+""2022-07-23 09:28:59 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:28:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 09:28:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 09:30:36 [main] INFO  com.jwt.services.UserServicesTest - Starting UserServicesTest using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 7348 (started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-23 09:30:36 [main] INFO  com.jwt.services.UserServicesTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 09:30:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 09:30:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157 ms. Found 1 JPA repository interfaces.
+""2022-07-23 09:30:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 09:30:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 09:30:43 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 09:30:43 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-23 09:30:43 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 09:30:44 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 09:30:44 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 09:30:45 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:30:45 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 09:30:46 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 09:30:47 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5dd2ea0a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65fa4a07, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f0c1409, org.springframework.security.web.header.HeaderWriterFilter@446f3a53, org.springframework.web.filter.CorsFilter@782143e8, org.springframework.security.web.authentication.logout.LogoutFilter@301770d9, com.jwt.filter.JwtAthenticationFilter@4e9bd2c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@706c062e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b9ed99d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a4bd699, org.springframework.security.web.session.SessionManagementFilter@17034458, org.springframework.security.web.access.ExceptionTranslationFilter@56976b8b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ab826bb]
+""2022-07-23 09:30:49 [main] INFO  com.jwt.services.UserServicesTest - Started UserServicesTest in 13.835 seconds (JVM running for 16.947)
+""2022-07-23 09:30:50 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:30:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 09:30:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 09:52:10 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Starting CustomUserDetailsServiceTest using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 6076 (started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-23 09:52:10 [main] INFO  c.j.s.CustomUserDetailsServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 09:52:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 09:52:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+""2022-07-23 09:52:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 09:52:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 09:52:16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 09:52:16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-23 09:52:16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 09:52:17 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 09:52:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 09:52:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:52:18 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 09:52:19 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 09:52:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66046e7c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c6a6ce3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f7fcec2, org.springframework.security.web.header.HeaderWriterFilter@257b6c58, org.springframework.web.filter.CorsFilter@726a5e6a, org.springframework.security.web.authentication.logout.LogoutFilter@11174bf, com.jwt.filter.JwtAthenticationFilter@320fc4b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16890f00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bbc47c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e3a6c83, org.springframework.security.web.session.SessionManagementFilter@eebd983, org.springframework.security.web.access.ExceptionTranslationFilter@8e3449e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4fc2933e]
+""2022-07-23 09:52:21 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Started CustomUserDetailsServiceTest in 11.741 seconds (JVM running for 14.598)
+""2022-07-23 09:52:21 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:52:21 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 09:52:21 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 09:55:42 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Starting CustomUserDetailsServiceTest using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 9896 (started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-23 09:55:42 [main] INFO  c.j.s.CustomUserDetailsServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 09:55:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 09:55:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 1 JPA repository interfaces.
+""2022-07-23 09:55:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 09:55:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 09:55:47 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 09:55:47 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-23 09:55:47 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 09:55:48 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 09:55:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 09:55:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:55:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 09:55:50 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 09:55:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e2e0b8a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f5f7731, org.springframework.security.web.context.SecurityContextPersistenceFilter@62a81453, org.springframework.security.web.header.HeaderWriterFilter@73d7d676, org.springframework.web.filter.CorsFilter@6a4f7c17, org.springframework.security.web.authentication.logout.LogoutFilter@77ebc9e6, com.jwt.filter.JwtAthenticationFilter@6a63ff31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a0f43dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@796cf2b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@584fb03d, org.springframework.security.web.session.SessionManagementFilter@5847010, org.springframework.security.web.access.ExceptionTranslationFilter@5b0e5d5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d41bb5a]
+""2022-07-23 09:55:52 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Started CustomUserDetailsServiceTest in 11.295 seconds (JVM running for 13.981)
+""2022-07-23 09:55:52 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:55:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 09:55:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 09:56:24 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Starting CustomUserDetailsServiceTest using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 10532 (started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-23 09:56:24 [main] INFO  c.j.s.CustomUserDetailsServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 09:56:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 09:56:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 150 ms. Found 1 JPA repository interfaces.
+""2022-07-23 09:56:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 09:56:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 09:56:31 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 09:56:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-23 09:56:31 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 09:56:32 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 09:56:33 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 09:56:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:56:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 09:56:34 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 09:56:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b386a17, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cda75be, org.springframework.security.web.context.SecurityContextPersistenceFilter@34f24a11, org.springframework.security.web.header.HeaderWriterFilter@d1d85d0, org.springframework.web.filter.CorsFilter@2213854b, org.springframework.security.web.authentication.logout.LogoutFilter@39f8adc0, com.jwt.filter.JwtAthenticationFilter@7bd694a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fa58a48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aa1c45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b1d2f65, org.springframework.security.web.session.SessionManagementFilter@7b54a0a4, org.springframework.security.web.access.ExceptionTranslationFilter@31c56721, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ac53209]
+""2022-07-23 09:56:36 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Started CustomUserDetailsServiceTest in 12.97 seconds (JVM running for 15.978)
+""2022-07-23 09:56:37 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:56:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 09:56:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 09:59:21 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Starting CustomUserDetailsServiceTest using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 13228 (started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-23 09:59:21 [main] INFO  c.j.s.CustomUserDetailsServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 09:59:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 09:59:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 213 ms. Found 1 JPA repository interfaces.
+""2022-07-23 09:59:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 09:59:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 09:59:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 09:59:30 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-23 09:59:30 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 09:59:31 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 09:59:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 09:59:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:59:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 09:59:34 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 09:59:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5002be8e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39fb5ddf, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fce3ed7, org.springframework.security.web.header.HeaderWriterFilter@289da1bc, org.springframework.web.filter.CorsFilter@642d34f1, org.springframework.security.web.authentication.logout.LogoutFilter@254cc548, com.jwt.filter.JwtAthenticationFilter@1e4c4fda, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d9df336, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56a72887, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49b180c8, org.springframework.security.web.session.SessionManagementFilter@60484429, org.springframework.security.web.access.ExceptionTranslationFilter@3d667b59, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@129e45eb]
+""2022-07-23 09:59:37 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Started CustomUserDetailsServiceTest in 17.42 seconds (JVM running for 27.154)
+""2022-07-23 09:59:38 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 09:59:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 09:59:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 10:03:43 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Starting CustomUserDetailsServiceTest using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 10532 (started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-23 10:03:44 [main] INFO  c.j.s.CustomUserDetailsServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:03:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:03:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:03:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 10:03:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 10:03:50 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:03:51 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-23 10:03:51 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 10:03:51 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:03:52 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:03:52 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:03:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:03:53 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:03:54 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@68303c3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ec23ec3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7646c9f5, org.springframework.security.web.header.HeaderWriterFilter@31c56721, org.springframework.web.filter.CorsFilter@7c2e88b9, org.springframework.security.web.authentication.logout.LogoutFilter@4687366b, com.jwt.filter.JwtAthenticationFilter@57df09a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e64ae1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f5ac587, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@556843a5, org.springframework.security.web.session.SessionManagementFilter@5a99543b, org.springframework.security.web.access.ExceptionTranslationFilter@38d4488c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3aa63b53]
+""2022-07-23 10:03:56 [main] INFO  c.j.s.CustomUserDetailsServiceTest - Started CustomUserDetailsServiceTest in 13.013 seconds (JVM running for 16.454)
+""2022-07-23 10:03:56 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:03:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 10:03:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 "
