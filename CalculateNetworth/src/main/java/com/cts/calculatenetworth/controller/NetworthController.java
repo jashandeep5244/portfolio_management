@@ -3,6 +3,8 @@ package com.cts.calculatenetworth.controller;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -31,6 +33,9 @@ import lombok.extern.slf4j.Slf4j;
 @CrossOrigin(origins = "*")
 public class NetworthController {
 
+
+	Logger logger = LoggerFactory.getLogger(NetworthController.class);
+	
 	@Autowired
 	private PortfolioDetailService portfolioDetailService;
 
@@ -46,14 +51,14 @@ public class NetworthController {
 	@GetMapping(value = "/viewAsset", produces = MediaType.APPLICATION_JSON_VALUE)
 	public PortfolioDetails getAssetById(@RequestHeader("Authorization") String authorization) {
 		int pid = (int)authorizationClient.getUserId(authorization);
-		
+		logger.info("Displaying Asset");
 		return portfolioDetailService.findByPfid(pid);
 	}
 
 	@GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
 	public double calculateNetworth(@RequestHeader("Authorization") String authorization) {
 		int pid = (int)authorizationClient.getUserId(authorization);
-		
+		logger.info("Displaying Networth");
 		return portfolioDetailService.getcalculateNetworth(pid, authorization);
 	}
 
@@ -66,6 +71,7 @@ public class NetworthController {
 		Map<String, Integer> stockMap=stockDetailService.updateAndDeleteStock(saleDetailsList);
 		Map<String, Integer> mfMap=mutualFundfolioDetailService.updateAndDeleteStock(saleDetailsList);
 		stockMap.putAll(mfMap);
+		logger.info("SellingAsset");
 		if (!stockMap.isEmpty()) {
 			assetSaleResponse.setSaleStatus(false);
 			assetSaleResponse.setMap(stockMap);

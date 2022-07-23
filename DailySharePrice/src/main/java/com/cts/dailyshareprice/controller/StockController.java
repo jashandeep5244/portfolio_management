@@ -2,6 +2,8 @@ package com.cts.dailyshareprice.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -23,6 +25,8 @@ import lombok.extern.slf4j.Slf4j;
 @CrossOrigin(origins = "*")
 @RequestMapping("/DailySharePrice")
 public class StockController {
+
+	Logger logger = LoggerFactory.getLogger(StockController.class);
 	
 	@Autowired
 	private StockService stockService;
@@ -33,6 +37,7 @@ public class StockController {
 	@GetMapping(value="/{stockName}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public Stock getStockDetail(@RequestHeader("Authorization") String authorization,@PathVariable String stockName) throws StockNotFoundException {
 		authorizationClient.getUname(authorization);
+		logger.info("Returning Stock Name: " + stockName);
 		return stockService.getStockDetail(stockName);
 	}
 	
@@ -40,6 +45,7 @@ public class StockController {
 	public List<Stock> getAllStockDetails(@RequestHeader("Authorization") String authorization) throws StockNotFoundException
 	{
 		authorizationClient.getUname(authorization);
+		logger.info("Returning Stock List ");
 		return stockService.getAllStock();
 	}
 	

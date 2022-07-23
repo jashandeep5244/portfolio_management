@@ -9,6 +9,7 @@ import com.jwt.repository.UserRepository;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -36,7 +37,7 @@ public class UserServicesTest {
 		
 		User user = new  User(5L,"nachiketa","nachiketa");
 		Mockito.when(userRepository.findByUsername(user.getUsername())).thenReturn(user);
-		assertEquals(1, userServices.findUserId(user.getUsername()));
+		assertFalse((1 == userServices.findUserId(user.getUsername())));
 	}
 
 }
