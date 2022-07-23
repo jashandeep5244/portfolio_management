@@ -60,7 +60,7 @@ class StockControllerTest {
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.setAll(map);
 
-		Mockito.when(stockService.findAll()).thenReturn(record);
+		//Mockito.when(stockService.findAll()).thenReturn(record);
 
 		mockMvc.perform(MockMvcRequestBuilders.get("/DailySharePrice/allstock").headers(httpHeaders)
 				.contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());

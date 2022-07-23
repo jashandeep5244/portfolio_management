@@ -69,22 +69,24 @@
 
 <div class="container">
     <div class="row text-center">
-        <p class="text-center">Sell The Asset......</p>
+        <h1 class="text-center">Sell Your Assests</h1>
         <hr>
         <div class="col-md-6">
-            <table class="table table-striped">
+            <table class="table">
 
                 <tr>
                     <th>checkbox</th>
-                    <th scope="col">Asset</th>
-                    <th scope="col">Available Units</th>
-                    <th scope="col">Units to be Sold</th>
+                    <th>Asset</th>
+                    <th>Available Units</th>
+                    <th>Units to be Sold</th>
                 </tr>
 
             </table>
             <app-vieweachstock *ngFor="let stock of portfolioResponse.stockDetailList" [stock]="stock" (removeEvent)="remove($event)" (addEvent)="add($event)"></app-vieweachstock>
             <app-vieweachmutual *ngFor="let mutualFund of portfolioResponse.mutualFundList" [mutual]="mutualFund" (removeEvent)="remove($event)" (addEvent)="add($event)"></app-vieweachmutual>
         </div>
+        <br><br>
+
         <div class="col-md-6">
             <table class="table table-striped" style="margin-left: 10%;">
                 <tr>
@@ -96,7 +98,10 @@
                     <td>{{asset.soldUnits}}</td>
                 </tr>
             </table>
-            <button (click)="sellAsset()" routerLink="/dashboard" mat-raised-button>Sell Assets</button>
+            <button (click)="sellAsset()" mat-raised-button color="primary" routerLink="/dashboard">Sell Assets</button>
         </div>
+        <div class="text-center m">
+          <button mat-raised-button routerLink="/dashboard">Go To Dashboard</button>
+      </div>
     </div>
 </div>

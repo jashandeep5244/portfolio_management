@@ -1,10 +1,18 @@
 <div class="bootstrap-wrapper">
     <div class="container mt">
         <div class="col-md-6 offset-md-3">
-            <h1 class="text-center">Login Here !!</h1>
-
+            <h1 class="text-center">Enter your Login Details Here</h1>
             <form (ngSubmit)="onSubmit()">
-                <mat-form-field class="full-width">
+              <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="Enter your username"
+                [(ngModel)]="credentials.username"
+                    name="username"
+                    required
+                    type="text">
+              </mat-form-field>
+              <br><br>
+                <!-- <mat-form-field class="full-width">
                     <mat-label>UserName</mat-label>
                     <input
                     [(ngModel)]="credentials.username"
@@ -12,17 +20,24 @@
                     required
                     type="text" matInput>
 
-                </mat-form-field>
-                <mat-form-field class="full-width">
+                </mat-form-field> -->
+                <!-- <mat-form-field class="full-width">
                     <mat-label>Password</mat-label>
                     <input
                     [(ngModel)]="credentials.password"
                     name="username"
                     required
                     type="password" matInput>
+                </mat-form-field> -->
 
+                <mat-form-field appearance="outline">
+                  <mat-label>Password</mat-label>
+                  <input matInput placeholder="Enter your password"
+                    [(ngModel)]="credentials.password"
+                    name="password"
+                    required
+                    type="password">
                 </mat-form-field>
-
                 <div class="container text-center">
                     <button style="margin-right: 10px;" type="submit" mat-raised-button color="primary">
                     Login</button>
@@ -30,7 +45,7 @@
                      Reset</button>
                 </div>
             </form>
-            {{credentials | json}}
+            <!-- {{credentials | json}} -->
 
         </div>
 
