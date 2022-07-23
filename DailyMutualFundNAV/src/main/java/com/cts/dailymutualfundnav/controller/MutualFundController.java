@@ -1,8 +1,6 @@
 package com.cts.dailymutualfundnav.controller;
 
 import java.util.List;
-import org.json.*
-;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

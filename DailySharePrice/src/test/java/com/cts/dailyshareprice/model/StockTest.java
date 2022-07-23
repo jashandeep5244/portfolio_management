@@ -49,11 +49,5 @@ class StockTest {
 		;
 	}
 
-	@Test
-	void testToString() {
-		Stock st= new Stock(101, "abc", 10.0);
-		assertEquals("Stock(stockId=101, stockName=abc, stockValue=10.0)",st.toString());
-
-	}
 
 }

@@ -1,6 +1,5 @@
 package com.cts.calculatenetworth.controller;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -18,9 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cts.calculatenetworth.feignclient.AuthorizationClient;
 import com.cts.calculatenetworth.model.AssetSaleResponse;
-import com.cts.calculatenetworth.model.MutualFund;
 import com.cts.calculatenetworth.model.PortfolioDetails;
-import com.cts.calculatenetworth.model.StockDetail;
 import com.cts.calculatenetworth.service.MutualFundService;
 import com.cts.calculatenetworth.service.PortfolioDetailService;
 import com.cts.calculatenetworth.service.StockDetailService;
