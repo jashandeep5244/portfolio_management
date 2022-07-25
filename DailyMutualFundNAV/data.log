@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "2022-07-25 09:23:07 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 10488 (C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\DailyMutualFundNAV\target\classes started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\DailyMutualFundNAV)
 ""2022-07-25 09:23:07 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
 ""2022-07-25 09:23:08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -44,4 +45,629 @@
 ""2022-07-25 09:30:25 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
 ""2022-07-25 09:30:25 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2022-07-25 09:30:25 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+=======
+"2022-07-23 10:21:14 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:21:14 [main] INFO  c.c.d.model.MutualFundTest - Starting MutualFundTest using Java 17.0.3 on DESKTOP-65JM51O with PID 3136 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:21:14 [main] INFO  c.c.d.model.MutualFundTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:21:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:21:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:21:16 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-07-23 10:21:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 10:21:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 10:21:16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:21:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 10:21:17 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 10:21:17 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:21:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:21:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:21:18 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:21:18 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:21:20 [main] INFO  c.c.d.model.MutualFundTest - Started MutualFundTest in 6.227 seconds (JVM running for 7.919)
+""2022-07-23 10:21:20 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:21:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 10:21:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 10:21:32 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:21:32 [main] INFO  c.c.d.model.MutualFundTest - Starting MutualFundTest using Java 17.0.3 on DESKTOP-65JM51O with PID 12972 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:21:32 [main] INFO  c.c.d.model.MutualFundTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:21:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:21:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:21:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-07-23 10:21:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 10:21:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 10:21:34 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:21:34 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 10:21:34 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 10:21:34 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:21:34 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:21:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:21:35 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:21:35 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:21:36 [main] INFO  c.c.d.model.MutualFundTest - Started MutualFundTest in 4.543 seconds (JVM running for 5.65)
+""2022-07-23 10:21:37 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:21:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 10:21:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 10:21:55 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:21:55 [main] INFO  c.c.d.DailyMutualFundNavApplicationTests - Starting DailyMutualFundNavApplicationTests using Java 17.0.3 on DESKTOP-65JM51O with PID 15532 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:21:55 [main] INFO  c.c.d.DailyMutualFundNavApplicationTests - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:21:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:21:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:21:56 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-07-23 10:21:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 10:21:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 10:21:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:21:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 10:21:57 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 10:21:58 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:21:58 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:21:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:21:59 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:21:59 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:22:01 [main] INFO  c.c.d.DailyMutualFundNavApplicationTests - Started DailyMutualFundNavApplicationTests in 5.819 seconds (JVM running for 7.024)
+""2022-07-23 10:22:01 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:22:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 10:22:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 10:22:15 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:22:15 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 19108 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:22:15 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:22:17 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:22:17 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:22:17 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+""2022-07-23 10:22:17 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.89 seconds (JVM running for 4.076)
+""2022-07-23 10:25:45 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:25:45 [main] INFO  c.c.d.service.MutualFundServiceTest - Starting MutualFundServiceTest using Java 17.0.3 on DESKTOP-65JM51O with PID 21904 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:25:45 [main] INFO  c.c.d.service.MutualFundServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:25:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:25:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:25:46 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-07-23 10:25:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 10:25:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 10:25:47 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:25:47 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 10:25:47 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 10:25:47 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:25:48 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:25:48 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:25:48 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:25:48 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:25:50 [main] INFO  c.c.d.service.MutualFundServiceTest - Started MutualFundServiceTest in 5.532 seconds (JVM running for 6.808)
+""2022-07-23 10:25:50 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.model.MutualFundTest], using SpringBootContextLoader
+""2022-07-23 10:25:50 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.model.MutualFundTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-23 10:25:50 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.model.MutualFundTest]: MutualFundTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-23 10:25:50 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.model.MutualFundTest
+""2022-07-23 10:25:50 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-23 10:25:50 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6a9b8f33, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5ac8916d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7375ebe7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16a7af5d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@207358ad, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e2ee637, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62d818c6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@492e9e87, org.springframework.test.context.event.EventPublishingTestExecutionListener@7322013f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a744e32, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@18487f92, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@252f00ba, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4667c6d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5efa05f9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@515555b]
+""2022-07-23 10:25:51 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:25:51 [main] INFO  c.c.d.model.MutualFundTest - Starting MutualFundTest using Java 17.0.3 on DESKTOP-65JM51O with PID 21904 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:25:51 [main] INFO  c.c.d.model.MutualFundTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:25:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:25:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:25:52 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-07-23 10:25:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-23 10:25:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-23 10:25:52 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:25:52 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:25:52 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:25:52 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:25:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:25:53 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:25:54 [main] INFO  c.c.d.model.MutualFundTest - Started MutualFundTest in 4.187 seconds (JVM running for 11.184)
+""2022-07-23 10:25:54 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests], using SpringBootContextLoader
+""2022-07-23 10:25:54 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-23 10:25:54 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests]: DailyMutualFundNavApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-23 10:25:54 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests
+""2022-07-23 10:25:54 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-23 10:25:54 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ec1192f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b926efa, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3653bb61, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65595be7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@23972e02, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bea7134, org.springframework.test.context.transaction.TransactionalTestExecutionListener@10c95d9b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f60ba06, org.springframework.test.context.event.EventPublishingTestExecutionListener@251d64d6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d96c290, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@17e96b3c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2d63534d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6316b9e3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186f7553, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@44835de9]
+""2022-07-23 10:25:54 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest], using SpringBootContextLoader
+""2022-07-23 10:25:54 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-23 10:25:54 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest]: MutualFundControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-23 10:25:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.controller.MutualFundControllerTest
+""2022-07-23 10:25:55 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-23 10:25:55 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b3b25ad, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f507d33, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1fc02a84, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4c04188, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@76a41af0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a1148f2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@641bd93e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62d10834, org.springframework.test.context.event.EventPublishingTestExecutionListener@34f4fd04, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@445265b0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7eba962d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1440a166, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74f6237, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50e7f88b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7a461744]
+""2022-07-23 10:25:55 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:25:55 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 21904 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:25:55 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:25:56 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:25:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:25:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+""2022-07-23 10:25:56 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 1.569 seconds (JVM running for 13.002)
+""2022-07-23 10:25:56 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:25:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 10:25:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 10:25:56 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:25:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-23 10:25:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-23 10:29:33 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 13656 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:29:33 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:29:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-23 10:29:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-23 10:29:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:29:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:29:34 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 10:29:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 10:29:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 10:29:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 10:29:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 10:29:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1763 ms
+""2022-07-23 10:29:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 10:29:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 10:29:35 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:29:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:29:35 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 10:29:36 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 10:29:36 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:29:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:29:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:29:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:29:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 10:29:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 10:29:37 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 4.583 seconds (JVM running for 5.471)
+""2022-07-23 10:29:48 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:29:48 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 11444 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:29:48 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:29:51 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:29:51 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:29:51 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+""2022-07-23 10:29:51 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.985 seconds (JVM running for 4.122)
+""2022-07-23 10:37:30 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:37:30 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 21392 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:37:30 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:37:32 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:37:32 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:37:32 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+""2022-07-23 10:37:32 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.792 seconds (JVM running for 4.01)
+""2022-07-23 10:40:13 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:40:13 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 10:40:13 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 10:40:13 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 10:40:13 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 13656 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:40:13 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 10:40:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 10:40:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 10:40:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 290 ms
+""2022-07-23 10:40:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-23 10:40:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:40:14 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:40:14 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:40:14 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:40:14 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 10:40:14 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 0.951 seconds (JVM running for 642.285)
+""2022-07-23 10:40:14 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-23 10:40:24 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:40:24 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 3344 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:40:24 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:40:26 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:40:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:40:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+""2022-07-23 10:40:26 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.858 seconds (JVM running for 3.969)
+""2022-07-23 10:40:40 [Thread-10] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:40:40 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 10:40:40 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-23 10:40:40 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-23 10:40:40 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 13656 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:40:40 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 10:40:40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 10:40:40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 10:40:40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 260 ms
+""2022-07-23 10:40:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+""2022-07-23 10:40:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:40:40 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:40:40 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:40:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:40:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:40:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 10:40:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 10:40:41 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 0.898 seconds (JVM running for 668.966)
+""2022-07-23 10:40:41 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-23 10:41:31 [Thread-16] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:41:31 [Thread-16] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 10:41:31 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+""2022-07-23 10:41:31 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+""2022-07-23 10:41:31 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 13656 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:41:31 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 10:41:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 10:41:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 10:41:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 256 ms
+""2022-07-23 10:41:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+""2022-07-23 10:41:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:41:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:41:31 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:41:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:41:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:41:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 10:41:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 10:41:32 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 0.903 seconds (JVM running for 720.016)
+""2022-07-23 10:41:32 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-23 10:41:42 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:41:42 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 8392 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:41:42 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:41:44 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:41:44 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:41:44 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+""2022-07-23 10:41:44 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.724 seconds (JVM running for 3.83)
+""2022-07-23 10:42:13 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:42:13 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 4668 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:42:13 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:42:15 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:42:15 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:42:15 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-07-23 10:42:15 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.791 seconds (JVM running for 3.998)
+""2022-07-23 10:42:44 [Thread-22] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:42:44 [Thread-22] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 10:42:44 [Thread-22] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+""2022-07-23 10:42:44 [Thread-22] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+""2022-07-23 10:42:44 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 13656 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:42:44 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:42:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:42:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+""2022-07-23 10:42:44 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 10:42:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 10:42:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 10:42:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 10:42:45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 10:42:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 259 ms
+""2022-07-23 10:42:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+""2022-07-23 10:42:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+""2022-07-23 10:42:45 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:42:45 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:42:45 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:42:45 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:42:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:42:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:42:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 10:42:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 10:42:45 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 0.877 seconds (JVM running for 793.125)
+""2022-07-23 10:42:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-23 10:43:19 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:43:19 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 3480 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:43:19 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:43:21 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:43:21 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:43:21 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-07-23 10:43:21 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.67 seconds (JVM running for 3.778)
+""2022-07-23 10:44:31 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/hp/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/hp/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+""2022-07-23 10:44:31 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 768 (started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 10:44:31 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:44:33 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:44:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:44:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+""2022-07-23 10:44:33 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 2.688 seconds (JVM running for 3.812)
+""2022-07-23 10:45:04 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-23 10:45:04 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:45:04 [RMI TCP Connection(37)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 10:45:04 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+""2022-07-23 10:45:05 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+""2022-07-23 11:03:50 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 23364 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 11:03:50 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 11:03:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-23 11:03:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-23 11:03:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 11:03:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interfaces.
+""2022-07-23 11:03:55 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 11:03:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 11:03:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 11:03:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 11:03:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 11:03:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9049 ms
+""2022-07-23 11:03:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 11:04:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 11:04:00 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 11:04:01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 11:04:01 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 11:04:03 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 11:04:04 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 11:04:08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 11:04:08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 11:04:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 11:04:11 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-23 11:04:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 11:04:18 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 30.814 seconds (JVM running for 40.92)
+""2022-07-23 11:06:59 [http-nio-8083-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-23 11:06:59 [http-nio-8083-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-23 11:07:00 [http-nio-8083-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 96 ms
+""2022-07-23 13:57:47 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 13:57:48 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 13:57:48 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 13:57:48 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 13:57:49 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 23364 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 13:57:49 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 13:57:50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 13:57:50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 13:57:50 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+""2022-07-23 13:57:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-23 13:57:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 13:57:50 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 13:57:50 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 13:57:50 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 13:57:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 13:57:50 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-23 13:57:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 13:57:51 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 2.021 seconds (JVM running for 10453.389)
+""2022-07-23 13:57:51 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-23 13:57:56 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 13:57:56 [Thread-8] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 13:57:56 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-23 13:57:56 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-23 13:57:56 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 23364 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 13:57:56 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 13:57:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 13:57:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 13:57:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 375 ms
+""2022-07-23 13:57:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+""2022-07-23 13:57:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 13:57:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 13:57:57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 13:57:57 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 13:57:57 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 13:57:57 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 13:57:57 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 1.167 seconds (JVM running for 10459.907)
+""2022-07-23 13:57:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-23 14:02:32 [RMI TCP Connection(225)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-23 14:02:32 [RMI TCP Connection(225)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:02:32 [HikariPool-3 connection adder] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Error thrown while acquiring connection from data source
+"org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.checkSuspended(Session.java:1369) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.isOpen(Session.java:1303) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1639) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeQuery(Command.java:186) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+"2022-07-23 14:02:32 [RMI TCP Connection(225)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 14:02:32 [RMI TCP Connection(225)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+""2022-07-23 14:02:32 [RMI TCP Connection(225)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+""2022-07-23 14:02:35 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 17592 (E:\portfolio_management\DailyMutualFundNAV\target\classes started by hp in E:\portfolio_management\DailyMutualFundNAV)
+""2022-07-23 14:02:35 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 14:02:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-23 14:02:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-23 14:02:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 14:02:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+""2022-07-23 14:02:36 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=86d547e8-d495-34ed-9e55-abc5835f1338
+""2022-07-23 14:02:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-07-23 14:02:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 14:02:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 14:02:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 14:02:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1832 ms
+""2022-07-23 14:02:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 14:02:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 14:02:37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 14:02:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 14:02:37 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 14:02:37 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 14:02:37 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 14:02:38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 14:02:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:02:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 14:02:38 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-23 14:02:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-07-23 14:02:39 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 4.859 seconds (JVM running for 5.702)
+""2022-07-23 14:07:27 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-23 14:07:27 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-23 14:07:28 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 152 ms
+""2022-07-23 14:07:28 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:07:29 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:07:38 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund List
+""2022-07-23 14:07:40 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:07:40 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:07:55 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:07:55 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:07:55 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:07:55 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:08:03 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:08:03 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:08:22 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:08:22 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:08:22 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:08:22 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:08:35 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:08:35 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:09:35 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:09:35 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:09:35 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:09:35 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:12:16 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:12:16 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:12:22 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:12:22 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:12:22 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:12:22 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:12:28 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:12:28 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:13:28 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:13:28 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:14:58 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:14:58 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:15:04 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:15:04 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:15:04 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:15:04 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:15:10 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:15:10 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:17:56 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:17:57 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:17:58 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:17:58 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:17:59 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:17:59 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:18:00 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:18:00 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:18:05 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:18:05 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:18:20 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:18:21 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:19:21 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:19:22 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:19:22 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:19:22 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:19:25 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:SRD
+""2022-07-23 14:19:25 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Returning Mutual Fund:CPE
+""2022-07-23 14:21:01 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-23 14:21:02 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:21:02 [RMI TCP Connection(25)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 14:21:02 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 14:21:02 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+>>>>>>> 2c1927dc8cefe16ff24d728c161ee3d31dae8d51
 "

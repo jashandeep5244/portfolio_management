@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "2022-07-25 09:23:45 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 14000 (C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\CalculateNetworth\target\classes started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\CalculateNetworth)
 ""2022-07-25 09:23:45 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
 ""2022-07-25 09:23:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -43,4 +44,278 @@
 ""2022-07-25 09:30:44 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
 ""2022-07-25 09:30:44 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2022-07-25 09:30:44 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+=======
+"2022-07-23 10:50:10 [main] INFO  c.c.c.c.NetworthControllerTest - Starting NetworthControllerTest using Java 17.0.3 on DESKTOP-65JM51O with PID 19436 (started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 10:50:10 [main] INFO  c.c.c.c.NetworthControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:50:12 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-23 10:50:12 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-23 10:50:12 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+""2022-07-23 10:50:12 [main] INFO  c.c.c.c.NetworthControllerTest - Started NetworthControllerTest in 3.27 seconds (JVM running for 4.986)
+""2022-07-23 10:50:13 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.calculatenetworth.CalculateNetworthApplicationTests], using SpringBootContextLoader
+""2022-07-23 10:50:13 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.calculatenetworth.CalculateNetworthApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-23 10:50:13 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.calculatenetworth.CalculateNetworthApplicationTests]: CalculateNetworthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-23 10:50:13 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.calculatenetworth.CalculateNetworthApplication for test class com.cts.calculatenetworth.CalculateNetworthApplicationTests
+""2022-07-23 10:50:13 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-23 10:50:13 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b80af04, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2447940d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@60ee7a51, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@70e1aa20, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@e67d3b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1618c98a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5b715ea, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@787a0fd6, org.springframework.test.context.event.EventPublishingTestExecutionListener@48b09105, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@18b45500, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@25110bb9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@dbda472, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@41492479, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7bef7505, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@568ef502]
+""2022-07-23 10:50:13 [main] INFO  c.c.c.CalculateNetworthApplicationTests - Starting CalculateNetworthApplicationTests using Java 17.0.3 on DESKTOP-65JM51O with PID 19436 (started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 10:50:13 [main] INFO  c.c.c.CalculateNetworthApplicationTests - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:50:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:50:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+""2022-07-23 10:50:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c795f968-27bf-33be-8216-ba13cb118e8e
+""2022-07-23 10:50:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 10:50:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 10:50:14 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:50:14 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 10:50:14 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 10:50:14 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:50:15 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:50:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:15 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:50:15 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:50:17 [main] INFO  c.c.c.CalculateNetworthApplicationTests - Started CalculateNetworthApplicationTests in 4.023 seconds (JVM running for 9.232)
+""2022-07-23 10:50:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.calculatenetworth.service.PortfolioDetailServiceTest], using SpringBootContextLoader
+""2022-07-23 10:50:17 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.calculatenetworth.service.PortfolioDetailServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-23 10:50:17 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.calculatenetworth.service.PortfolioDetailServiceTest]: PortfolioDetailServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-23 10:50:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.calculatenetworth.CalculateNetworthApplication for test class com.cts.calculatenetworth.service.PortfolioDetailServiceTest
+""2022-07-23 10:50:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-23 10:50:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4cc070c2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53a74970, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@60c8cc46, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55d607b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4a544672, org.springframework.test.context.support.DirtiesContextTestExecutionListener@23d16a81, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5dd3841, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6b6dce39, org.springframework.test.context.event.EventPublishingTestExecutionListener@3e272f0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2bcf856f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@47bcaf67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@42a5bdaf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@524032f9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f33123, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2796716d]
+""2022-07-23 10:50:17 [main] INFO  c.c.c.s.PortfolioDetailServiceTest - Starting PortfolioDetailServiceTest using Java 17.0.3 on DESKTOP-65JM51O with PID 19436 (started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 10:50:17 [main] INFO  c.c.c.s.PortfolioDetailServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:50:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:50:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 3 JPA repository interfaces.
+""2022-07-23 10:50:17 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c795f968-27bf-33be-8216-ba13cb118e8e
+""2022-07-23 10:50:17 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-23 10:50:17 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-23 10:50:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:50:17 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:50:17 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:50:17 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:17 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:50:17 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:50:18 [main] INFO  c.c.c.s.PortfolioDetailServiceTest - Started PortfolioDetailServiceTest in 1.457 seconds (JVM running for 10.761)
+""2022-07-23 10:50:18 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.calculatenetworth.service.MutualFundServiceTest], using SpringBootContextLoader
+""2022-07-23 10:50:18 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.calculatenetworth.service.MutualFundServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-23 10:50:18 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.calculatenetworth.service.MutualFundServiceTest]: MutualFundServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-23 10:50:18 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.calculatenetworth.CalculateNetworthApplication for test class com.cts.calculatenetworth.service.MutualFundServiceTest
+""2022-07-23 10:50:18 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-23 10:50:18 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ea4712b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@63156646, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6896ef29, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b9fd79, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1989e9ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51e68bcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ed6d97f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@45cfbfe9, org.springframework.test.context.event.EventPublishingTestExecutionListener@13dff835, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7682b160, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e2783ee, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@762f5d34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a5d0d94, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7937a60e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@bfd7235]
+""2022-07-23 10:50:18 [main] INFO  c.c.c.service.MutualFundServiceTest - Starting MutualFundServiceTest using Java 17.0.3 on DESKTOP-65JM51O with PID 19436 (started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 10:50:18 [main] INFO  c.c.c.service.MutualFundServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:50:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:50:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 3 JPA repository interfaces.
+""2022-07-23 10:50:19 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c795f968-27bf-33be-8216-ba13cb118e8e
+""2022-07-23 10:50:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+""2022-07-23 10:50:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+""2022-07-23 10:50:19 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:50:19 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:50:19 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:50:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:19 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:50:19 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:50:20 [main] INFO  c.c.c.service.MutualFundServiceTest - Started MutualFundServiceTest in 1.4 seconds (JVM running for 12.188)
+""2022-07-23 10:50:20 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.calculatenetworth.service.StockDetailServiceTest], using SpringBootContextLoader
+""2022-07-23 10:50:20 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.calculatenetworth.service.StockDetailServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-23 10:50:20 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.calculatenetworth.service.StockDetailServiceTest]: StockDetailServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-23 10:50:20 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.calculatenetworth.CalculateNetworthApplication for test class com.cts.calculatenetworth.service.StockDetailServiceTest
+""2022-07-23 10:50:20 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-23 10:50:20 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ffa007c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@705a793a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4ee5d723, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f88319b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e25f6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@232e1f66, org.springframework.test.context.transaction.TransactionalTestExecutionListener@431298ef, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d386dff, org.springframework.test.context.event.EventPublishingTestExecutionListener@1cf8d43b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4ffe2ded, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@187c011d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3605d078, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c86938f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@52294ab7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2a25dd06]
+""2022-07-23 10:50:20 [main] INFO  c.c.c.service.StockDetailServiceTest - Starting StockDetailServiceTest using Java 17.0.3 on DESKTOP-65JM51O with PID 19436 (started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 10:50:20 [main] INFO  c.c.c.service.StockDetailServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 10:50:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 10:50:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 3 JPA repository interfaces.
+""2022-07-23 10:50:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c795f968-27bf-33be-8216-ba13cb118e8e
+""2022-07-23 10:50:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+""2022-07-23 10:50:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+""2022-07-23 10:50:20 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 10:50:20 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 10:50:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 10:50:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:20 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 10:50:21 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 10:50:22 [main] INFO  c.c.c.service.StockDetailServiceTest - Started StockDetailServiceTest in 2.526 seconds (JVM running for 14.756)
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+""2022-07-23 10:50:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+""2022-07-23 11:03:50 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 23264 (E:\portfolio_management\CalculateNetworth\target\classes started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 11:03:50 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 11:03:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-23 11:03:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-23 11:03:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 11:03:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169 ms. Found 3 JPA repository interfaces.
+""2022-07-23 11:03:55 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0c29e67a-5732-3520-a773-7d7e23dd7121
+""2022-07-23 11:03:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-07-23 11:03:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 11:03:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 11:03:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 11:03:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8823 ms
+""2022-07-23 11:03:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 11:04:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 11:04:00 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 11:04:01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 11:04:01 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 11:04:03 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 11:04:04 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 11:04:08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 11:04:08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 11:04:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 11:04:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 11:04:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+""2022-07-23 11:04:20 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Started CalculateNetworthApplication in 32.923 seconds (JVM running for 44.002)
+""2022-07-23 11:06:56 [http-nio-8084-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-23 11:06:56 [http-nio-8084-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-23 11:06:56 [http-nio-8084-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 78 ms
+""2022-07-23 13:59:53 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 13:59:53 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 13:59:53 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 13:59:53 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-23 13:59:54 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 23264 (E:\portfolio_management\CalculateNetworth\target\classes started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 13:59:54 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 13:59:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 13:59:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 3 JPA repository interfaces.
+""2022-07-23 13:59:55 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0c29e67a-5732-3520-a773-7d7e23dd7121
+""2022-07-23 13:59:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-07-23 13:59:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 13:59:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 13:59:55 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 13:59:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+""2022-07-23 13:59:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-23 13:59:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-23 13:59:55 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 13:59:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 13:59:55 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 13:59:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 13:59:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 13:59:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 13:59:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 13:59:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+""2022-07-23 13:59:56 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Started CalculateNetworthApplication in 2.132 seconds (JVM running for 10579.956)
+""2022-07-23 13:59:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-23 14:02:25 [RMI TCP Connection(225)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-23 14:02:25 [RMI TCP Connection(225)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:02:25 [HikariPool-2 connection adder] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Error thrown while acquiring connection from data source
+"org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.checkSuspended(Session.java:1369) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.isOpen(Session.java:1303) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1639) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeQuery(Command.java:186) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+"2022-07-23 14:02:25 [RMI TCP Connection(225)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 14:02:25 [RMI TCP Connection(225)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-23 14:02:25 [RMI TCP Connection(225)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-23 14:02:32 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 4036 (E:\portfolio_management\CalculateNetworth\target\classes started by hp in E:\portfolio_management\CalculateNetworth)
+""2022-07-23 14:02:32 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-23 14:02:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-23 14:02:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-23 14:02:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-23 14:02:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+""2022-07-23 14:02:34 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0c29e67a-5732-3520-a773-7d7e23dd7121
+""2022-07-23 14:02:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-07-23 14:02:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-23 14:02:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-23 14:02:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-23 14:02:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2442 ms
+""2022-07-23 14:02:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-23 14:02:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-23 14:02:35 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-23 14:02:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-23 14:02:35 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-23 14:02:36 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-23 14:02:36 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-23 14:02:37 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-23 14:02:37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:02:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-23 14:02:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-23 14:02:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+""2022-07-23 14:02:38 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Started CalculateNetworthApplication in 7.124 seconds (JVM running for 8.34)
+""2022-07-23 14:07:23 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-23 14:07:23 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-23 14:07:23 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 226 ms
+""2022-07-23 14:07:24 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:07:24 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:07:40 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:07:40 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:07:42 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:07:55 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:07:55 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:07:55 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:08:03 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:08:03 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:08:12 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:08:21 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:08:21 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:08:21 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:08:35 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:08:35 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:09:30 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:09:35 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:09:35 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:09:35 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:12:16 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:12:16 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:12:18 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:12:22 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:12:22 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:12:22 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:12:27 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:12:28 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:13:28 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:13:28 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:14:58 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:14:58 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:01 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:04 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:04 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:15:04 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:15:10 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:10 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:51 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:51 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:52 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:52 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:55 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:57 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:59 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:59 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:59 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:18:04 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:18:04 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:18:20 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:18:20 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:19:16 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:19:21 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:19:21 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:19:21 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:19:25 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:19:25 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:20:59 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+>>>>>>> 2c1927dc8cefe16ff24d728c161ee3d31dae8d51
 "

@@ -7,7 +7,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import com.jwt.model.User;
 import com.jwt.repository.UserRepository;
 
-import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
