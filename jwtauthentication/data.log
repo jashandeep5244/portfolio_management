@@ -223,4 +223,91 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 ""2022-07-23 14:20:58 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2022-07-23 14:20:58 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 >>>>>>> 2c1927dc8cefe16ff24d728c161ee3d31dae8d51
+""2022-07-25 10:14:09 [main] INFO  com.jwt.JwtauthenticationApplication - Starting JwtauthenticationApplication using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 13844 (C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication\target\classes started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-25 10:14:09 [main] INFO  com.jwt.JwtauthenticationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-25 10:14:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-25 10:14:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 188 ms. Found 1 JPA repository interfaces.
+""2022-07-25 10:14:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-25 10:14:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-25 10:14:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+""2022-07-25 10:14:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-25 10:14:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10917 ms
+""2022-07-25 10:14:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-25 10:14:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-25 10:14:22 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-25 10:14:24 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-25 10:14:24 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-25 10:14:26 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-25 10:14:26 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-25 10:14:29 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-25 10:14:29 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-25 10:14:32 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-25 10:14:33 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:14:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/h2-console/**']
+""2022-07-25 10:14:34 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:14:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/v2/api-docs']
+""2022-07-25 10:14:34 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/ui']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:14:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/ui']
+""2022-07-25 10:14:34 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:14:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-resources/**']
+""2022-07-25 10:14:34 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/security']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:14:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/security']
+""2022-07-25 10:14:34 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-ui/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:14:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-ui/**']
+""2022-07-25 10:14:34 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:14:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/webjars/**']
+""2022-07-25 10:14:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2eb31735, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73753326, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e6e29d6, org.springframework.security.web.header.HeaderWriterFilter@2faae7f6, org.springframework.web.filter.CorsFilter@24f77077, org.springframework.security.web.authentication.logout.LogoutFilter@8eeb4c5, com.jwt.filter.JwtAthenticationFilter@5e5a2b74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5afa0b1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@170f0fd6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2eb73a42, org.springframework.security.web.session.SessionManagementFilter@544733a4, org.springframework.security.web.access.ExceptionTranslationFilter@61c0fb12, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55731ccd]
+""2022-07-25 10:14:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-25 10:14:36 [main] INFO  com.jwt.JwtauthenticationApplication - Started JwtauthenticationApplication in 28.711 seconds (JVM running for 32.473)
+""2022-07-25 10:17:09 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-25 10:17:09 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-25 10:17:09 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+""2022-07-25 10:47:34 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-25 10:47:43 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-25 10:47:48 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-25 10:47:49 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-25 10:47:50 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-25 10:49:24 [main] INFO  com.jwt.JwtauthenticationApplication - Starting JwtauthenticationApplication using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 13716 (C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication\target\classes started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-25 10:49:24 [main] INFO  com.jwt.JwtauthenticationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-25 10:49:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-25 10:49:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 213 ms. Found 1 JPA repository interfaces.
+""2022-07-25 10:49:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-25 10:49:36 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-25 10:49:36 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+""2022-07-25 10:49:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-25 10:49:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11661 ms
+""2022-07-25 10:49:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-25 10:49:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-25 10:49:38 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-25 10:49:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-25 10:49:39 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-25 10:49:40 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-25 10:49:41 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-25 10:49:45 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-25 10:49:45 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-25 10:49:48 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-25 10:49:55 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:49:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/h2-console/**']
+""2022-07-25 10:49:55 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:49:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/v2/api-docs']
+""2022-07-25 10:49:55 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/ui']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:49:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/ui']
+""2022-07-25 10:49:55 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:49:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-resources/**']
+""2022-07-25 10:49:55 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/security']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:49:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/security']
+""2022-07-25 10:49:55 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-ui/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:49:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-ui/**']
+""2022-07-25 10:49:55 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-25 10:49:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/webjars/**']
+""2022-07-25 10:49:56 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1da61a29, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47cf922d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2487b621, org.springframework.security.web.header.HeaderWriterFilter@7b44e98e, org.springframework.web.filter.CorsFilter@6b64921f, org.springframework.security.web.authentication.logout.LogoutFilter@1728d307, com.jwt.filter.JwtAthenticationFilter@7fc5a558, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@736a8aea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@263f6e96, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@439d649c, org.springframework.security.web.session.SessionManagementFilter@2d568cff, org.springframework.security.web.access.ExceptionTranslationFilter@106b476a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fe37d27]
+""2022-07-25 10:49:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-25 10:50:01 [main] INFO  com.jwt.JwtauthenticationApplication - Started JwtauthenticationApplication in 39.001 seconds (JVM running for 46.004)
+""2022-07-25 10:50:40 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-25 10:50:40 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-25 10:50:40 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+""2022-07-25 10:50:51 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-25 10:50:51 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-25 10:50:51 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-25 10:50:51 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 "
