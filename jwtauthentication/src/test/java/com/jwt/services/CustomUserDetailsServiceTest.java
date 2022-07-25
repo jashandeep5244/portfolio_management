@@ -12,7 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import com.jwt.model.CustomUserDetails;
 import com.jwt.model.User;
 import com.jwt.repository.UserRepository;
 

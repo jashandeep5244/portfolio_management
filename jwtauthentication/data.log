@@ -134,4 +134,8 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 "2022-07-23 14:07:14 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Forbidden Access
 ""2022-07-23 14:07:14 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Forbidden Access
 ""2022-07-23 14:07:21 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg2MDE0NDEsImlhdCI6MTY1ODU2NTQ0MX0.CVhFRPjUMHgBq5_2-UrKz0KzXGleJZvsZbFfeB8KOus
+""2022-07-23 14:20:57 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-23 14:20:58 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:20:58 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 14:20:58 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 "

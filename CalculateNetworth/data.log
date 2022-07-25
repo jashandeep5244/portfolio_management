@@ -238,4 +238,36 @@
 ""2022-07-23 14:12:28 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Asset
 ""2022-07-23 14:13:28 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - Displaying Networth
 ""2022-07-23 14:13:28 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:14:58 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:14:58 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:01 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:04 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:04 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:15:04 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:15:10 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:15:10 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:51 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:51 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:52 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:52 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:55 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:57 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:59 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:17:59 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:17:59 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:18:04 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:18:04 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:18:20 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:18:20 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:19:16 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:19:21 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:19:21 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:19:21 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - SellingAsset
+""2022-07-23 14:19:25 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - Displaying Networth
+""2022-07-23 14:19:25 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - Displaying Asset
+""2022-07-23 14:20:59 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-23 14:21:00 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 "

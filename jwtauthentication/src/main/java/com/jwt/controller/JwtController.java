@@ -20,10 +20,8 @@ import com.jwt.services.CustomUserDetailsService;
 import com.jwt.services.UserServices;
 import com.jwt.util.JwtUtil;
 
-import lombok.extern.slf4j.Slf4j;
 
 
-@Slf4j
 @RestController
 @CrossOrigin(origins = "*")
 public class JwtController {
