@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -20,6 +21,8 @@ import com.jwt.services.CustomUserDetailsService;
 @EnableWebSecurity
 public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 	
+	
+	
 	@Autowired
 	private CustomUserDetailsService customUserDetailsService;
 	
@@ -33,10 +36,26 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 		auth.userDetailsService(customUserDetailsService);
 	}
 	@Override
+	public void configure(WebSecurity web) throws Exception {
+		web
+		.ignoring().antMatchers("/h2-console/**","/v2/api-docs",
+                "/configuration/ui",
+                "/swagger-resources/**",
+                "/configuration/security",
+                "/swagger-ui/**",
+                
+                "/webjars/**");
+		
+		
+	}
+	
+	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.csrf().disable()
 		.cors().and()
-		.authorizeRequests().antMatchers("/getToken","/h2-console").permitAll()
+		.authorizeRequests().antMatchers("/getToken").permitAll()
+		
+		
 		.anyRequest().authenticated().
 		and().exceptionHandling().and().sessionManagement()
 		.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
