@@ -5,10 +5,12 @@ import java.util.Collections;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.core.context.SecurityContext;
 
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.ApiKey;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
@@ -22,6 +24,8 @@ public class JwtauthenticationApplication {
 		SpringApplication.run(JwtauthenticationApplication.class, args);
 	}
 	
+	
+	
 	@Bean
     Docket configureSwagger() {
 
@@ -33,7 +37,7 @@ public class JwtauthenticationApplication {
     }
  
     private ApiInfo apiInfo() {
-        return new ApiInfo("DailySharePrice Api", "Sample API for DailySharePrice", "1.0", "path/to/terms",
+        return new ApiInfo("Jwtauthentication Api", "Sample API for Jwtauthentication", "1.0", "path/to/terms",
                 new Contact("Portfolio", "http://www.google.com", "Portfolio@gmail.com"), "API License",
                 "http://www.google.com", Collections.emptyList());
     }
