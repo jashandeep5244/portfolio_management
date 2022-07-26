@@ -6,6 +6,7 @@ import { CalculatenetworthserviceService } from 'src/app/services/calculatenetwo
 import { LoginService } from 'src/app/services/login.service';
 
 import { timer } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sellasset',
@@ -15,7 +16,7 @@ import { timer } from 'rxjs';
 export class SellassetComponent implements OnInit {
 
   constructor(private calculatedNetService:CalculatenetworthserviceService,
-    private loginService:LoginService) { }
+    private loginService:LoginService,private router: Router) { }
 
     flag: boolean=false
     message: string=""
@@ -43,6 +44,7 @@ export class SellassetComponent implements OnInit {
         console.log(data);
         this.assetSaleResponse=data;
         alert('Assests are sold successfully')
+        this.router.navigate(['/dashboard'])
         timer(2000).subscribe(x =>{
         }
         );

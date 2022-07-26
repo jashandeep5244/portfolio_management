@@ -24,6 +24,8 @@ public class JwtauthenticationApplication {
 	
 	@Bean
     Docket configureSwagger() {
+
+		
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .paths(PathSelectors.ant("/**")) 
                 .apis(RequestHandlerSelectors.basePackage("com.jwt.controller")).build()
