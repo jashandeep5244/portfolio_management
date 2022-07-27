@@ -1,9 +1,9 @@
 <table>
     <tr>
-        <td><input type="checkbox" (click)="doOperation()"></td>
+        <td><input type="checkbox" (click)="doOperation()" id="chbox"></td>
         <td>{{stock.stockName}}</td>
         <td>{{stock.stockCount}}</td>
         <td><input type="number" min="0" max="{{stock.stockCount}}" [(ngModel)]="sales.soldUnits"></td>
+        <!-- <td><input type="button" (click)="addOperation()" value={{btnValue}}></td> -->
     </tr>
-
 </table>

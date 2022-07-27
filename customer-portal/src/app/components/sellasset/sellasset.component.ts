@@ -50,7 +50,6 @@ export class SellassetComponent implements OnInit {
       (error:any)=>
       {
         console.log(error);
-
       });
    }
   }

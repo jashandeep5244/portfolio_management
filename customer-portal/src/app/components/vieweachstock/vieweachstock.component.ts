@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { SaleAsset } from 'src/app/model/saleasset';
 import { StockDetail } from 'src/app/model/stockdetail';
+import { __makeTemplateObject } from 'tslib';
 
 @Component({
   selector: 'app-vieweachstock',
@@ -9,6 +10,8 @@ import { StockDetail } from 'src/app/model/stockdetail';
 })
 export class VieweachstockComponent implements OnInit {
 
+  chbox:any;
+
   @Output() addEvent=new EventEmitter()
   @Output() removeEvent=new EventEmitter()
   @Input() stock:StockDetail={
@@ -16,25 +19,42 @@ export class VieweachstockComponent implements OnInit {
     currentPrice: 0
   }
   //
+  btnValue="Add"
   sales:SaleAsset={assetName:"",soldUnits:0}
   assetSelected:boolean=false
   @Input() index:number=0
-  
+
   constructor() { }
 
   ngOnInit(): void {
   }
-  
+
 
   doOperation(){
-    this.assetSelected=!this.assetSelected
+    if(this.sales.soldUnits> this.stock.stockCount){
+      alert('You do not have enough units available to sell')
+      this.sales.soldUnits = 0
+      console.log('not enough stocks')
+      if(this.chbox != null){
+        this.chbox.checked = true;
+        console.log('checked')
+      }else{
+        this.chbox.checked = false;
+        console.log('not checked')
+      }
+    }else{
+      this.assetSelected=!this.assetSelected
     if(this.assetSelected==true){
       this.sales.assetName=this.stock.stockName
       this.addEvent.emit(this.sales)
-    }else{
+      console.log('add event')
+      }
+    else{
       this.sales.soldUnits=0
       this.removeEvent.emit(this.sales.assetName)
+      console.log('remove event module')
     }
-  }
 
+  }
+  }
 }
