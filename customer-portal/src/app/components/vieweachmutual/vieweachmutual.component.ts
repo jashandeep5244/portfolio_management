@@ -9,6 +9,8 @@ import { SaleAsset } from 'src/app/model/saleasset';
 })
 export class VieweachmutualComponent implements OnInit {
 
+  chbox:any;
+
   @Output() addEvent=new EventEmitter()
   @Output() removeEvent=new EventEmitter()
   @Input() mutual:MutualFund={
@@ -25,6 +27,18 @@ export class VieweachmutualComponent implements OnInit {
   }
 
   doOperation(){
+    if(this.sales.soldUnits> this.mutual.mutualFundUnits){
+      alert('You do not have enough units available to sell')
+      this.sales.soldUnits = 0
+      console.log('not enough funds')
+      if(this.chbox != null){
+        this.chbox.checked = true;
+        console.log('checked')
+      }else{
+        this.chbox.checked = false;
+        console.log('not checked')
+      }
+    }else{
     this.assetSelected=!this.assetSelected
     if((this.assetSelected==true)){
       this.sales.assetName=this.mutual.mutualFundName
@@ -34,5 +48,5 @@ export class VieweachmutualComponent implements OnInit {
       this.removeEvent.emit(this.sales.assetName)
     }
   }
-
+}
 }
