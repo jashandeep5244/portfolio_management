@@ -45,4 +45,10 @@ export class LoginService {
     return localStorage.getItem("token");
   }
 
+  // for getting username
+
+  getUsername(){
+    return this.http.get(`${this.url}/getuname`)
+  }
+
 }

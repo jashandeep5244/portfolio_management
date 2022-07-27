@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
     username:'',
     password:''
   }
+  flag:any;
 
   constructor( private loginservice:LoginService) { }
 
@@ -27,6 +28,7 @@ export class LoginComponent implements OnInit {
           //token succesfully generated
 
          console.log(response);
+         this.flag = false;
 
          this.loginservice.loginUser(response.token)
          window.location.href="/dashboard"
@@ -36,6 +38,7 @@ export class LoginComponent implements OnInit {
         error=>{
 
           console.log(error);
+          this.flag = true;
 
 
         }

@@ -1,377 +1,119 @@
-"2022-07-26 18:07:25 [main] INFO  com.jwt.JwtauthenticationApplication - Starting JwtauthenticationApplication using Java 17.0.3 on DESKTOP-65JM51O with PID 14956 (E:\portfolio_management\jwtauthentication\target\classes started by hp in E:\portfolio_management\jwtauthentication)
-""2022-07-26 18:07:25 [main] INFO  com.jwt.JwtauthenticationApplication - No active profile set, falling back to 1 default profile: "default"
-""2022-07-26 18:07:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2022-07-26 18:07:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interfaces.
-""2022-07-26 18:07:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
-""2022-07-26 18:07:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2022-07-26 18:07:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
-""2022-07-26 18:07:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2022-07-26 18:07:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5763 ms
-""2022-07-26 18:07:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-""2022-07-26 18:07:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-""2022-07-26 18:07:32 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
-""2022-07-26 18:07:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2022-07-26 18:07:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
-""2022-07-26 18:07:34 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2022-07-26 18:07:34 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-""2022-07-26 18:07:35 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2022-07-26 18:07:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2022-07-26 18:07:36 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2022-07-26 18:07:37 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-""2022-07-26 18:07:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/h2-console/**']
-""2022-07-26 18:07:37 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-""2022-07-26 18:07:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/v2/api-docs']
-""2022-07-26 18:07:37 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/ui']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-""2022-07-26 18:07:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/ui']
-""2022-07-26 18:07:37 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-""2022-07-26 18:07:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-resources/**']
-""2022-07-26 18:07:37 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/security']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-""2022-07-26 18:07:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/security']
-""2022-07-26 18:07:37 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-ui/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-""2022-07-26 18:07:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-ui/**']
-""2022-07-26 18:07:37 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-""2022-07-26 18:07:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/webjars/**']
-""2022-07-26 18:07:38 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d6dc2b8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ec75228, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dde913e, org.springframework.security.web.header.HeaderWriterFilter@2b06c388, org.springframework.web.filter.CorsFilter@55cf5626, org.springframework.security.web.authentication.logout.LogoutFilter@5d24703e, com.jwt.filter.JwtAthenticationFilter@f833223, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e2bc241, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@90c01ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8de8b07, org.springframework.security.web.session.SessionManagementFilter@2dc77962, org.springframework.security.web.access.ExceptionTranslationFilter@eb09112, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bbac73d]
-""2022-07-26 18:07:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
-""2022-07-26 18:07:39 [main] INFO  com.jwt.JwtauthenticationApplication - Started JwtauthenticationApplication in 14.686 seconds (JVM running for 40.607)
-""2022-07-26 18:08:55 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-07-26 18:08:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2022-07-26 18:08:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-""2022-07-26 18:08:56 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg4NzUxMzYsImlhdCI6MTY1ODgzOTEzNn0.dnV6U9od8GJXy_2nwx2YcRW-UiYTyoZwVrLOIrU9_qM
-""2022-07-26 18:08:58 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:08:58 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:08:58 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:08:59 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:08:59 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:08:59 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:09:28 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:09:28 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:09:35 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:09:35 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:09:36 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:09:36 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:09:36 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:09:36 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:09:37 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:04 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:04 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:04 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:04 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:04 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:04 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:04 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:04 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:04 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:04 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:04 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:13 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:13 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:13 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:13 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:13 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:13 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:35 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:40 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:40 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:40 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:40 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:40 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:40 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:40 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:40 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:40 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:40 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:40 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:43 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:43 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:43 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:43 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:44 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:44 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:47 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:51 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:51 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:51 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:51 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:51 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:51 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:51 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:51 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:51 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:51 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:51 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:57 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:57 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:10:57 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:57 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:57 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:10:57 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:02 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:11:21 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:11:21 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:21 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:11:21 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:11:22 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:22 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:22 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:22 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:22 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:22 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:22 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:11:38 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:04 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:04 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:05 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:05 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:05 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:05 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:06 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:06 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:20 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:20 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:20 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:20 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:20 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:20 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:42 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:50 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:50 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:18:50 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:50 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:50 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:50 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:18:55 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:19:16 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:19:16 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:19:16 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:19:16 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:19:16 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:19:16 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:19:45 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg4NzU3ODUsImlhdCI6MTY1ODgzOTc4NX0.CcfHER6JBRKuxFJdyo0Zc_MYqU2CJFEno9Z2NYDgGQs
-""2022-07-26 18:19:46 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:19:46 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:19:46 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:19:46 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:19:46 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:19:46 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:20:07 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg4NzU4MDcsImlhdCI6MTY1ODgzOTgwN30.mN5_ZgfND5x6Wmq9k_Px63CLiEjujlYxV5_T7_FkUbs
-""2022-07-26 18:20:07 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:20:07 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:20:07 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:20:07 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:20:07 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:20:08 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:31:11 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:31:11 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:31:12 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:31:12 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:31:12 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:31:13 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:32:41 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:32:41 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:32:42 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:32:42 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:32:42 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:32:42 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:01 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg4NzY1ODEsImlhdCI6MTY1ODg0MDU4MX0.LBtxv6_hE1lL0loEIoGc0j_KBQhdtOPtJfSn8Dm3qWU
-""2022-07-26 18:33:02 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:33:02 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:33:02 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:02 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:02 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:02 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:29 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:33:29 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:33:29 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:29 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:29 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:33:29 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:28 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:34:28 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:34:28 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:28 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:28 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:28 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:59 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:34:59 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:34:59 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:59 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:59 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:34:59 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:35:00 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:35:00 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:35:00 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:35:00 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:35:00 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:35:00 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:10 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:10 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:10 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:10 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:10 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:18 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:18 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:18 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:18 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:18 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:18 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:27 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg4NzY5MDcsImlhdCI6MTY1ODg0MDkwN30.51_pqiY7xd3Ktlu34e80sqjHiOWaw-FBRLuQsgOoJGs
-""2022-07-26 18:38:27 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:27 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:27 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:27 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:27 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:27 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:33 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:33 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:34 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:34 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:34 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:34 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:40 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:40 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:42 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:42 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:42 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:42 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:42 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:42 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:52 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:52 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:38:52 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:52 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:52 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:38:52 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:02 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:02 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:02 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:02 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:02 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:02 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:22 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:22 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:22 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:22 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:22 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:22 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:27 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg4NzY5NjcsImlhdCI6MTY1ODg0MDk2N30.FtQrnyaXJ5w5o6imXRTAms8ksh0MgZTV3BnpJ7E-ras
-""2022-07-26 18:39:28 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:28 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:28 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:28 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:28 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:28 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:33 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:33 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:39:33 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:33 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:33 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:33 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:39:44 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:40:15 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:40:15 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:40:15 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:15 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:15 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:15 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:17 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:40:45 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:40:45 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:40:45 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:45 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:45 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:45 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:46 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:40:46 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:46 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:46 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:46 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:48 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:40:48 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:07 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:07 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:07 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:07 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:07 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:07 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:12 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:12 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:12 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:12 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:12 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:12 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:13 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:13 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:18 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:18 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:18 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:18 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:18 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:18 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:19 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:24 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:24 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:24 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:24 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:24 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:24 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:26 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:28 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:28 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:28 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:28 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:28 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:28 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:28 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:29 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:29 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:29 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:29 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:32 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:32 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:32 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:32 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:32 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:32 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:33 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:43 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:43 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:43 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:43 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:43 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:43 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:45 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:45 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:47 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:47 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:47 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:47 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:47 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:47 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:48 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:52 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:52 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:52 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:41:52 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:53 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:53 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:53 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:53 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:53 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:53 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:41:53 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:42:12 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:42:12 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
-""2022-07-26 18:42:12 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:42:12 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:42:12 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:42:12 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
-""2022-07-26 18:42:14 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
+"2022-07-27 09:41:06 [main] INFO  com.jwt.JwtauthenticationApplication - Starting JwtauthenticationApplication using Java 17.0.2 on DESKTOP-H8CBHU0 with PID 9464 (C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication\target\classes started by Nachiketa in C:\Users\hp\OneDrive\Desktop\CTS INTERNSHIP\portfolio_management\jwtauthentication)
+""2022-07-27 09:41:06 [main] INFO  com.jwt.JwtauthenticationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-27 09:41:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-27 09:41:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 218 ms. Found 1 JPA repository interfaces.
+""2022-07-27 09:41:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-27 09:41:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-27 09:41:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+""2022-07-27 09:41:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-27 09:41:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8062 ms
+""2022-07-27 09:41:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-27 09:41:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-27 09:41:16 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-27 09:41:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-27 09:41:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+""2022-07-27 09:41:18 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-27 09:41:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-27 09:41:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-27 09:41:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-27 09:41:21 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-27 09:41:23 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/h2-console/**']
+""2022-07-27 09:41:23 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/v2/api-docs']
+""2022-07-27 09:41:23 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/ui']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/ui']
+""2022-07-27 09:41:23 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-resources/**']
+""2022-07-27 09:41:23 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/security']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/security']
+""2022-07-27 09:41:23 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-ui/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-ui/**']
+""2022-07-27 09:41:23 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/webjars/**']
+""2022-07-27 09:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@208b8425, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec52163, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e096ac0, org.springframework.security.web.header.HeaderWriterFilter@49482761, org.springframework.web.filter.CorsFilter@5b1cedfd, org.springframework.security.web.authentication.logout.LogoutFilter@99f75e4, com.jwt.filter.JwtAthenticationFilter@7ce760af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11fa11b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@248ba4fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fe2c5ad, org.springframework.security.web.session.SessionManagementFilter@6f9999f6, org.springframework.security.web.access.ExceptionTranslationFilter@47ab3688, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2932721e]
+""2022-07-27 09:41:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-27 09:41:25 [main] INFO  com.jwt.JwtauthenticationApplication - Started JwtauthenticationApplication in 19.753 seconds (JVM running for 24.864)
+""2022-07-27 09:46:07 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-27 09:46:07 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-27 09:46:09 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1961 ms
+""2022-07-27 09:47:11 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg5MzE0MzEsImlhdCI6MTY1ODg5NTQzMX0.jpxKd1mJ2K1R0kwlxua9u4yMA0UzRB8xQSJBxd8kyyY
+""2022-07-27 09:47:15 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:17 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:17 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:30 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:31 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:31 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:31 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:32 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:35 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:35 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:38 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:38 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:38 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:39 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:39 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:39 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:39 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:39 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:39 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:39 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:39 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:49 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:49 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:56 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:56 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:47:56 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:56 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:56 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:56 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:47:57 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:48:15 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:48:15 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:48:16 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:48:16 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:48:16 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:48:19 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:48:19 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:48:19 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:48:19 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:48:19 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:48:19 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:54:12 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg5MzE4NTIsImlhdCI6MTY1ODg5NTg1Mn0.rCXHee_qOfOinFDrTLq5fMq0X81k5liRs3w9wKB0U6s
+""2022-07-27 09:54:14 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:54:15 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:54:15 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 09:54:16 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:54:16 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:54:19 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:54:20 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 09:54:30 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Forbidden Access
+""2022-07-27 10:00:34 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Forbidden Access
+""2022-07-27 10:02:58 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning TokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXNoYW4iLCJleHAiOjE2NTg5MzIzNzgsImlhdCI6MTY1ODg5NjM3OH0.wmaq5oV1-1h7ecP2inttM99qudrz-03-i6istJ0SjwQ
+""2022-07-27 10:02:59 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:02:59 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 10:02:59 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 10:03:00 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:04 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:04 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:04 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:27 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:28 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:40 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 10:03:40 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 10:03:41 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:42 [http-nio-8081-exec-5] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:42 [http-nio-8081-exec-7] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:42 [http-nio-8081-exec-6] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:03:46 [http-nio-8081-exec-8] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 10:04:14 [http-nio-8081-exec-1] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 10:04:14 [http-nio-8081-exec-9] INFO  com.jwt.controller.JwtController - Returning userid
+""2022-07-27 10:04:14 [http-nio-8081-exec-3] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:04:14 [http-nio-8081-exec-2] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:04:15 [http-nio-8081-exec-10] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:04:15 [http-nio-8081-exec-4] INFO  com.jwt.controller.JwtController - Returning username:jashan
+""2022-07-27 10:06:33 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-27 10:06:34 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-27 10:06:35 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-27 10:06:35 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 "
