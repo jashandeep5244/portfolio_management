@@ -24,6 +24,7 @@ import { VieweachstockComponent } from './components/vieweachstock/vieweachstock
 import { VieweachmutualComponent } from './components/vieweachmutual/vieweachmutual.component';
 
 import {MatTableModule} from '@angular/material/table';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -50,6 +51,7 @@ import {MatTableModule} from '@angular/material/table';
     FormsModule,
     HttpClientModule,
     MatTableModule,
+    MatSnackBarModule
   ],
   providers: [LoginService,AuthGuard, [{provide:HTTP_INTERCEPTORS,useClass:AuthInterceptor,multi:true}]],
   bootstrap: [AppComponent]

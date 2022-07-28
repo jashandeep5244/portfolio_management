@@ -7,6 +7,7 @@ import { LoginService } from 'src/app/services/login.service';
 
 import { timer } from 'rxjs';
 import { Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-sellasset',
@@ -16,7 +17,7 @@ import { Router } from '@angular/router';
 export class SellassetComponent implements OnInit {
 
   constructor(private calculatedNetService:CalculatenetworthserviceService,
-    private loginService:LoginService,private router: Router) { }
+    private loginService:LoginService,private router: Router,private snackBar:MatSnackBar) { }
 
     flag: boolean=false
     message: string=""
@@ -28,6 +29,7 @@ export class SellassetComponent implements OnInit {
       map: new Map()
     }
     portfolioResponse: Portfolio={portfolioid:0,stockDetailList:[],mutualFundList:[]};
+
 
   ngOnInit(): void {
     this.flag=true
@@ -45,10 +47,15 @@ export class SellassetComponent implements OnInit {
         this.assetSaleResponse=data;
         if(this.saleAsset.length > 0){
           console.log( this.saleAsset.length)
+          
+          // let snackBarRef = this.snackBar.open('Assests are sold successfully', 'OK');
+          // snackBarRef.afterDismissed().subscribe(() => {
+          //   console.log('The snackbar was dismissed');
+          //   this.router.navigate(['/dashboard'])
+          // });
+
           alert('Assests are sold successfully')
-          timer(2000).subscribe(x =>{
-          }
-          );
+            this.router.navigate(['/dashboard'])
       }else{
         alert('No assets selected')
       }
