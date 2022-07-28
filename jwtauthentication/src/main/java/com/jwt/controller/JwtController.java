@@ -45,7 +45,7 @@ public class JwtController {
 	}
 
 	@RequestMapping("/getuname")
-	public String hello() {
+	public String hello(@RequestHeader("Authorization") String authorization) {
 		UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 		String username = userDetails.getUsername();
 		logger.info("Returning username:" + username );
