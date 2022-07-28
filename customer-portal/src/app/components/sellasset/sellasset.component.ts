@@ -42,10 +42,15 @@ export class SellassetComponent implements OnInit {
       {
         console.log(data);
         this.assetSaleResponse=data;
-        alert('Assests are sold successfully')
-        timer(2000).subscribe(x =>{
-        }
-        );
+        if(this.saleAsset.length > 0){
+          console.log( this.saleAsset.length)
+          alert('Assests are sold successfully')
+          timer(2000).subscribe(x =>{
+          }
+          );
+      }else{
+        alert('No assets selected')
+      }
       },
       (error:any)=>
       {

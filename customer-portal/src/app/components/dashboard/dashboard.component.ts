@@ -16,7 +16,7 @@ export class DashboardComponent implements OnInit{
   mutalfunds : any;
   stocks : any;
   netWorth : any;
- 
+
 
 
   constructor( private userService:UserService, private calculatenetworthService:CalculatenetworthserviceService) { }
@@ -31,10 +31,10 @@ export class DashboardComponent implements OnInit{
       this.portfolio = data;
       this.mutalfunds = this.portfolio.mutualFundList;
       this.stocks = this.portfolio.stockDetailList;
-      console.log(this.portfolio);
-      console.log(this.portfolio.mutualFundList);
-      console.log(this.portfolio.stockDetailList);
-    }, 
+      //console.log(this.portfolio);
+      //console.log(this.portfolio.mutualFundList);
+      //console.log(this.portfolio.stockDetailList);
+    },
     )
   }
   getNetWorth() {
