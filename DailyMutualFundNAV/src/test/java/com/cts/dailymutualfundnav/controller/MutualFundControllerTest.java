@@ -48,7 +48,7 @@ class MutualFundControllerTest {
 		
 		Mockito.when(mutualFundService.getByMutualFundName(m1.getMutualFundName())).thenReturn(m1);
 
-		mockMvc.perform(MockMvcRequestBuilders.get("/DailyMutualFundNAV/GLE")
+		mockMvc.perform(MockMvcRequestBuilders.get("/MutualFundNAV/GLE")
 				.headers(httpHeaders).contentType(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk());
 	}
@@ -63,7 +63,7 @@ class MutualFundControllerTest {
 		
 		Mockito.when(mutualFundService.getAll()).thenReturn(record);
 
-		mockMvc.perform(MockMvcRequestBuilders.get("/DailyMutualFundNAV/allmf")
+		mockMvc.perform(MockMvcRequestBuilders.get("/MutualFundNAV/allmf")
 				.headers(httpHeaders).contentType(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk());
 	}

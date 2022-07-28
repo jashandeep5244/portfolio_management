@@ -24,7 +24,7 @@ public class DailySharePriceApplication {
 		SpringApplication.run(DailySharePriceApplication.class, args);
 	}
 	@Bean
-    public Docket configureSwagger() {
+    Docket configureSwagger() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .paths(PathSelectors.ant("/DailySharePrice/**")) 
                 .apis(RequestHandlerSelectors.basePackage("com.cts.dailyshareprice.controller")).build()

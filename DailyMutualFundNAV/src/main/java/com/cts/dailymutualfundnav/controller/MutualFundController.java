@@ -1,9 +1,9 @@
 package com.cts.dailymutualfundnav.controller;
 
 import java.util.List;
-import org.json.*
-;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -26,6 +26,9 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/MutualFundNAV")
 public class MutualFundController {
 
+
+	Logger logger = LoggerFactory.getLogger(MutualFundController.class);
+	
 	@Autowired
 	private MutualFundService mutualFundService;
 
@@ -35,6 +38,7 @@ public class MutualFundController {
 	@GetMapping(value = "/{mutualFundName}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public MutualFund getMutualFundDetails(@RequestHeader("Authorization") String authorization,@PathVariable String mutualFundName) throws MutualFundNotFoundException {
 		authorizationClient.getUname(authorization);
+		logger.info("Returning Mutual Fund:" + mutualFundName);
 		return mutualFundService.getByMutualFundName(mutualFundName);
 	}
 	
@@ -42,6 +46,7 @@ public class MutualFundController {
 	public List<MutualFund> getAllMutualFund(@RequestHeader("Authorization") String authorization) throws MutualFundNotFoundException
 	{
 		authorizationClient.getUname(authorization);
+		logger.info("Returning Mutual Fund List");
 		return mutualFundService.getAll();
 	}
 

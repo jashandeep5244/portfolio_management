@@ -2,6 +2,7 @@
     <div class="container mt">
         <div class="col-md-6 offset-md-3">
             <h1 class="text-center">Enter your Login Details Here</h1>
+            <h4 *ngIf="flag" style="color: red; text-align:center; margin: top 100px; margin: bottom 100px;">Enter valid credentials!!</h4>
             <form (ngSubmit)="onSubmit()">
               <mat-form-field appearance="outline">
                 <mat-label>Username</mat-label>
@@ -46,6 +47,7 @@
                 </div>
             </form>
             <!-- {{credentials | json}} -->
+           
 
         </div>
 

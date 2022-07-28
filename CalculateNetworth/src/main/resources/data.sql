@@ -9,10 +9,10 @@ insert into portfolio values(101);
 insert into portfolio values(102);
 insert into portfolio values(103);
   
-insert into stockdetail values(10,'CTS',100,101);
-insert into stockdetail values(11,'DHF',100,102);
-insert into stockdetail values(12,'SBI',100,101);
+insert into stockdetail values(10,'APPLE',100,101);
+insert into stockdetail values(11,'TCS',100,102);
+insert into stockdetail values(12,'MICROSOFT',100,101);
 
-insert into mutualfund values(21,'QSF',100,102);
-insert into mutualfund values(22,'SRD',100,101);
-insert into mutualfund values(23,'CPE',100,101);
+insert into mutualfund values(21,'QUANT',100,102);
+insert into mutualfund values(22,'AXXA',100,101);
+insert into mutualfund values(23,'ICCI',100,101);

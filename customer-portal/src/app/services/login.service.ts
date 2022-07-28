@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class LoginService {
 
-  url="http://localhost:8081"
+  url="http://52.90.208.51:8081"
 
   constructor(private http:HttpClient) { }
 
@@ -43,6 +43,12 @@ export class LoginService {
   // for getting the token
   getToken(){
     return localStorage.getItem("token");
+  }
+
+  // for getting username
+
+  getUsername(){
+    return this.http.get(`${this.url}/getuname`)
   }
 
 }
