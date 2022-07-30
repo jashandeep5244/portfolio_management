@@ -8,7 +8,7 @@ import { Portfolio } from '../portfolio';
 })
 export class UserService {
 
-  baseUrl = 'http://54.89.163.255:8084'
+  baseUrl = 'http://localhost:8084'
 
   constructor( private http:HttpClient) { }
 

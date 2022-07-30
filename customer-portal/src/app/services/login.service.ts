@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class LoginService {
 
-  url="http://52.90.208.51:8081"
+  url="http://localhost:8081"
 
   constructor(private http:HttpClient) { }
 
