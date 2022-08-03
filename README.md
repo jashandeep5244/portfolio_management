@@ -27,4 +27,16 @@ STS: We have used STS (Spring Tool Suite) for developing all spring boot API's.
 
 Tomcat: Project will be run over the Tomcat server
 
-# 
+# Modules
+For each module, we have a controller class, exception class, model class, repository and service class. 
+
+The controller class is responsible for processing incoming REST API requests, preparing a model, and returning the view to be rendered as a response. The repository provides the mechanism for storage, retrieval, search, update and delete operation on objects as required by the module. The model class works a container that contains the data of the application. For example, we have Stock Model class where there are values stockId, stockName and stockValue. The service class is used by a client to interact with some functionality in the particular module. 
+
+In each module, we have used FeignClient to authorize the user. 
+
+The data.sql file under the resources section defines the required sql queries in a particular module. We have included a few predefined stocks and mutual values. We also have a list of users. 
+
+The customer-portal module contains code in Angular.
+
+
+
