@@ -38,5 +38,9 @@ The data.sql file under the resources section defines the required sql queries i
 
 The customer-portal module contains code in Angular.
 
+# Deployment
+
+We are currently using Tomcat server to run this project. However, we have also deployed our project on AWS. The steps are as follows : 
+
 
 
