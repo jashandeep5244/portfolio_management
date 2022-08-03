@@ -45,8 +45,11 @@ We are currently using Tomcat server to run this project. However, we have also 
 To run the services locally, steps are:
 
 i) open the terminal in the servie directory
+
 ii) run "mvn clean install"  ## to create updated jar file
+
 iii) run "docker build -t {docker image name}:{tagname}"      ## to containerize the jar file
+
 iv) run "docker run -p {port}:{port} {docker image name}:{tagname}"  ## to run the containerize image
 
 To run the angular locally, steps are:
